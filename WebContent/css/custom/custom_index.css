@@ -65,8 +65,22 @@ html,body{
 		margin: 0;
 	}
 	
-	.conteiner_menu .menu .menu_direito a{
-		color: #dcd2be;
+	.conteiner_menu .menu .menu_direito .link_menu_margin_zero a:link {
+		    color: red;
+		}
+		a:hover {
+		    color: hotpink;
+		}
+		
+		a:active {
+		    color: blue;
+		}
 	}
+	
+	.conteiner_menu .menu .menu_direito a{
+		/*color: #dcd2be;*/
+	}
+	
+
 	
 	

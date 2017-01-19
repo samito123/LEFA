@@ -12,10 +12,16 @@ html,body{
 	Helvetica, sans-serif;
 }
 
-.conteiner_menu{
+
+.container { 
 	margin: 0 auto;
+	padding: 0;
 	width: 100%;
-	height: 25em;
+}
+
+.conteiner_menu{
+	width: 100%;
+	height: 24em;
 	background-color: #2d2d2d;
 }
 
@@ -23,8 +29,9 @@ html,body{
 		width: 70%;
 		height: auto;
 		position: absolute;
-		margin: 1% 15% 1% 15%;
-		/*background-color: yellow;*/
+		top: 0.8em;
+		margin: 0 15% 0 15%;
+		background-color: red;
 	}
 	
 	.conteiner_menu .menu .logo_lefa{
@@ -34,53 +41,48 @@ html,body{
 	}
 	
 	.conteiner_menu .menu .descricao_logo_lefa{
+		float: left;
 		font: italic small-caps bold 14px "Comic Sans MS", sans-serif;
 		font-size: 1em;
 		color: #dcd2be;
 	}
 	
 	.conteiner_menu .menu .menu_direito{
-		height: 1.5em;
-		position: absolute;
-		
-		top:2.4em;
-		left:27em;
-		/*background-color: brown;*/
-		
-		
-		text-align: right;
+		float: right;
 		font: italic small-caps bold 14px "Comic Sans MS", sans-serif;
 		font-size: 1.1em;
 		color: #dcd2be;
-		
 	}
 	
 	.conteiner_menu .menu .menu_direito .link_menu{
-		float:right;
-		margin: 0 1em 0 0;]
+		float:left;
+		margin: 0 1em 0 0;
 	}
 	
-	.conteiner_menu .menu .menu_direito .link_menu_margin_zero{
-		float:right;
-		margin: 0;
+	.conteiner_menu .menu .menu_direito 
+	a:link, a:visited {
+		text-decoration: none;
+		color: #dcd2be;
+	}a:hover {
+		text-decoration: underline; 
+		color: #969286;
+	}a:active {
+		text-decoration: none;
 	}
-	
-	.conteiner_menu .menu .menu_direito .link_menu_margin_zero a:link {
-		    color: red;
-		}
-		a:hover {
-		    color: hotpink;
-		}
-		
-		a:active {
-		    color: blue;
-		}
-	}
-	
-	.conteiner_menu .menu .menu_direito a{
-		/*color: #dcd2be;*/
-	}
-	
+
+.conteiner_banner{
+	width: 70%;
+	height: 26em;
+	position: absolute;
+	margin: 1% 15% 1% 15%;
+	top: 5em;
+	background-color: brown;
+}
+
+	.conteiner_banner img{
+		max-width: 100%; 
+		height: auto; 
+	}	
 
 	
 	

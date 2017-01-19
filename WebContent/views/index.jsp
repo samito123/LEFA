@@ -15,23 +15,26 @@ pageEncoding="UTF-8"%>
 	<head>
 	<body ng-controller="lefa as lf">
 		
-		<div class="conteiner_menu">
-			<div class="menu">
-				<div class="logo_lefa">
-					LEFA
+		<div class="container">
+		
+			 <div class="conteiner_menu">
+				<div class="menu">
+					<div class="logo_lefa">
+						LEFA
+					</div>
+					<div class="descricao_logo_lefa">
+						Lar Espirita Francisco Alcyone
+					</div>
+					<div class="menu_direito">
+						<div class="link_menu"><a href="#">Home</a></div>		
+					</div>		
 				</div>
-				<div class="descricao_logo_lefa">
-					Lar Espirita Francisco Alcyone
-				</div>
-				<div class="menu_direito">
-					<div class="link_menu_margin_zero"><a href="#">Parceiros</a></div>
-					<div class="link_menu"><a href="#">Eventos</a></div>
-				    <div class="link_menu"><a href="#">Cursos</a></div>
-					<div class="link_menu"><a href="#">Agenda</a></div>
-					<div class="link_menu"><a href="#">Home</a></div>
-				</div>
-				
 			</div>
+			
+			<!--<div class="conteiner_banner">
+				<img src="imagens/mensagen.png">
+			</div>-->
+		 
 		</div>
 		
 	</body>

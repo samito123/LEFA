@@ -22,8 +22,11 @@ pageEncoding="UTF-8"%>
 					<div class="logo_lefa">
 						LEFA
 					</div>
+					<button class="menu_opcoes">
+						&#9776
+					</button>
 					<div class="descricao_logo_lefa">
-						Lar Espirita Francisco Alcyone
+						<a href="#">Lar Espirita Francisco Alcyone</a>
 					</div>
 					<div class="menu_direito">
 						<div class="link_menu"><a href="#">Home</a></div>		
@@ -31,9 +34,9 @@ pageEncoding="UTF-8"%>
 				</div>
 			</div>
 			
-			<!--<div class="conteiner_banner">
-				<img src="imagens/mensagen.png">
-			</div>-->
+			<div class="conteiner_banner">
+				<img src="imagens/lala.png">
+			</div>
 		 
 		</div>
 		

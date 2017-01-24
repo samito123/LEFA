@@ -22,5 +22,13 @@
 		<script src="javascript/fotorama/fotorama.js"></script>
 <!-- Fim Custom-->
 
+<!-- Angularjs -->
+	<!-- Libs  -->
+		<script type="text/javascript" src="javascript/angular/angular.min.js" charset="UTF-8"></script>
+<!-- Fim Angularjs -->
 
+<!-- Angularjs -->
+	<!-- Libs  -->
+		<script type="text/javascript" src="javascript/modern/modernizr.custom.js" charset="UTF-8"></script>
+<!-- Fim Angularjs -->
 

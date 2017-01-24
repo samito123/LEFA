@@ -10,3 +10,17 @@
 		<link href="css/custom/custom_index.css" rel="stylesheet" type="text/css" charset="UTF-8">
 <!-- Fim Custom-->
 
+<!-- Jquery -->
+	<!-- JS -->
+		<script type="text/javascript" src="javascript/jquery/jquery-1.12.3.min.js" charset="UTF-8"></script>
+<!-- Fim Jquery -->
+
+<!-- Custom-->
+	<!-- CSS Custom-->
+		<link href="css/fotorama/fotorama.css" rel="stylesheet" type="text/css" charset="UTF-8">
+	<!-- Fotorama  -->
+		<script src="javascript/fotorama/fotorama.js"></script>
+<!-- Fim Custom-->
+
+
+

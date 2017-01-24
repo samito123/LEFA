@@ -35,9 +35,25 @@ pageEncoding="UTF-8"%>
 			</div>
 			
 			<div class="conteiner_banner">
-				<img src="imagens/lala.png">
-			</div>
-		 
+				<div class="fotorama" data-width="940" data-height="355" 
+				data-fit="cover" data-autoplay="3000" data-nav="thumbs">
+					<a href="imagens/banner/mimimi.png"><img src="imagens/banner/mimimi.png" width="270" height="120" ></a>
+					<a href="imagens/banner/01.png"><img src="imagens/banner/01.png" width="270" height="120" ></a>
+					<a href="imagens/banner/02.png"><img src="imagens/banner/02.png" width="270" height="120" ></a>
+					<a href="imagens/banner/03.png"><img src="imagens/banner/03.png" width="270" height="120" ></a>
+					<a href="imagens/banner/04.png"><img src="imagens/banner/04.png" width="270" height="120" ></a>
+					<a href="imagens/banner/mimimi.png"><img src="imagens/banner/mimimi.png" width="270" height="120" ></a>
+					
+					<a href="imagens/banner/mimimi.png"><img src="imagens/banner/mimimi.png" width="270" height="120" ></a>
+					<a href="imagens/banner/01.png"><img src="imagens/banner/01.png" width="270" height="120" ></a>
+					<a href="imagens/banner/02.png"><img src="imagens/banner/02.png" width="270" height="120" ></a>
+					<a href="imagens/banner/03.png"><img src="imagens/banner/03.png" width="270" height="120" ></a>
+					<a href="imagens/banner/04.png"><img src="imagens/banner/04.png" width="270" height="120" ></a>
+					<a href="imagens/banner/mimimi.png"><img src="imagens/banner/mimimi.png" width="270" height="120" ></a>
+				</div>
+		 	</div>
+		 	
+		 	
 		</div>
 		
 	</body>

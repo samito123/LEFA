@@ -56,32 +56,102 @@ pageEncoding="UTF-8"%>
 				</div>
 		 	</div>
 		 	
-		 	<div class="barra_conteudo">
+		 	<div class="barra_conteudo_livros_filmes">
+		 		<h3>Sugestões de livros e filmes</h3>
+		 		
 		 		<div class="wrapper">
 			 		<ul class="stage">
-					    <li class="scene">
-							<div class="movie">
-								<div class="poster">
-									<img class="img_poster" src="imagens/banner/nospassosdomestre.png;">
+					    
+					    <div class="conteiner_primario_livro_filme">
+						    <li class="scene">
+								<div class="movie">
+									<div class="poster">
+										<img class="img_poster" src="imagens/banner/nospassosdomestre.png;">
+									</div>
+									<div class="info">
+									
+										<header>
+											<img class="img_header" src="imagens/banner/nospassosdomestre_thumb.png;">
+											<div class="aaa">
+												<h1>NOS PASSOS DO MESTRE</h1>
+												<span class="year">2016</span>
+												<span class="rating">Não indicado para menores de 10 anos</span>
+												<span class="duration">1h 40min</span>
+											</div>
+										</header>
+										<p>
+									  		Através da ótica do espiritismo, esta é uma 
+									  		reconstituição aprofundada da jornada de Jesus Cristo
+									  	    (Fabio Malosso) na Terra, buscando compreender as lições
+									  		de amor e compaixão que o maior mestre de todos os tempos
+									  		deixou para os homens e mulheres das gerações futuras.
+										</p>
+										
+									</div>
 								</div>
-								<div class="info">
-									<header>
-										<h1>It's a Wonderful Life</h1>
-										<span class="year">1946</span>
-										<span class="rating">PG</span>
-										<span class="duration">130 minutes</span>
-									</header>
-									<p>
-								  		In Bedford Falls, New York on Christmas Eve, 
-								  		George Bailey is deeply troubled. Prayers for 
-								  		his well-being from friends and family reach Heaven. 
-								  		Clarence Odbody, Angel Second Class, is assigned to
-										visit Earth to save George, thereby earning his wings. Franklin 
-										and Joseph, the head angels, review George's life with Clarence.
-									</p>
+							</li>
+						</div>
+						
+						<div class="conteiner_secundario_livro_filme"> 
+							<li class="scene">
+								<div class="movie">
+									<div class="poster">
+										<img class="img_poster" src="imagens/banner/avolta.png;">
+									</div>
+									<div class="info">
+									
+										<header>
+											<img class="img_header" src="imagens/banner/avolta_thumb.png;">
+											<div class="aaa">
+												<h1>A Volta</h1>
+												<span class="year">2009</span>
+												<span class="rating">Best Seller</span>
+												<span class="duration">320 páginas</span>
+											</div>
+										</header>
+										<p>
+									  		Uma incrível e real história de reencarnação que impressionou milhares de telespectadores 
+									  		da rede de televisão norte-americana ABC. James Leininger, de apenas 2 anos de idade, 
+									  		tem pesadelos que lhe permitem falar sobre pessoas e cenas com uma riqueza de detalhes 
+									  		assustadora. Preocupados, seus pais Bruce e Andrea Leininger, começam uma busca incansável 
+									  		pela verdade...
+										</p>
+										
+									</div>
 								</div>
-							</div>
-						</li>
+							</li>
+						</div>
+						
+						<div class="conteiner_terciario_livro_filme"> 
+							<li class="scene">
+								<div class="movie">
+									<div class="poster">
+										<img class="img_poster" src="imagens/banner/nossolar.png;">
+									</div>
+									<div class="info">
+									
+										<header>
+											<img class="img_header" src="imagens/banner/nossolar_thumb.png;">
+											<div class="aaa">
+												<h1>NOSSO LAR</h1>
+												<span class="year">2010</span>
+												<span class="rating">Drama</span>
+												<span class="duration">1h 45min</span>
+											</div>
+										</header>
+										<p>
+									  		Através da ótica do espiritismo, esta é uma 
+									  		reconstituição aprofundada da jornada de Jesus Cristo
+									  	    (Fabio Malosso) na Terra, buscando compreender as lições
+									  		de amor e compaixão que o maior mestre de todos os tempos
+									  		deixou para os homens e mulheres das gerações futuras.
+										</p>
+										
+									</div>
+								</div>
+							</li>						
+						</div>
+						
 				  	</ul> 
 				</div>
 		 	</div>

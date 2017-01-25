@@ -28,7 +28,9 @@
 <!-- Fim Angularjs -->
 
 <!-- Angularjs -->
+	<!-- CSS Custom-->
+		<link href="css/modernizr/modernizr.css" rel="stylesheet" type="text/css" charset="UTF-8">
 	<!-- Libs  -->
-		<script type="text/javascript" src="javascript/modern/modernizr.custom.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="javascript/modernizr/modernizr.custom.js" charset="UTF-8"></script>
 <!-- Fim Angularjs -->
 

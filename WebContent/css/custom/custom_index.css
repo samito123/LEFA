@@ -150,43 +150,102 @@ html,body{
 	}
 }
 
-.conteiner_thumbnails_banner_rotativo .camada_de_enchimento{
-	width: 100%;
-	height: 4.5em;
-	float: left;
-}
-
-.conteiner_thumbnails_banner_rotativo .descricao_logo_lefa_bottom{
-	text-align: center;
-	font: italic small-caps bold 14px "Comic Sans MS", sans-serif;
-	font-size: 1em;
-	color: #dcd2be;
-	display: none;
-}
-
-.conteiner_thumbnails_banner_rotativo .descricao_logo_lefa_bottom  
-	a:link, a:visited {
+	.conteiner_thumbnails_banner_rotativo .camada_de_enchimento{
+		width: 100%;
+		height: 4.5em;
+		float: left;
+	}
+	
+	.conteiner_thumbnails_banner_rotativo .descricao_logo_lefa_bottom{
+		text-align: center;
+		font: italic small-caps bold 14px "Comic Sans MS", sans-serif;
+		font-size: 1em;
+		color: #dcd2be;
+		display: none;
+	}
+	
+	.conteiner_thumbnails_banner_rotativo .descricao_logo_lefa_bottom a:link, 
+	.conteiner_thumbnails_banner_rotativo .descricao_logo_lefa_bottom a:visited {
 		text-decoration: none;
 		color: #dcd2be;
-	}a:hover {
+	} 
+	
+	.conteiner_thumbnails_banner_rotativo .descricao_logo_lefa_bottom a:hover {
 		text-decoration: underline; 
 		color: #969286;
-	}a:active {
+	}
+	
+	.conteiner_thumbnails_banner_rotativo .descricao_logo_lefa_bottom a:active {
 		text-decoration: none;
 	}
-
-@media all and (max-width: 450px) { 
-	.conteiner_thumbnails_banner_rotativo .descricao_logo_lefa_bottom{
-		display: inherit;
+	
+	@media all and (max-width: 450px) { 
+		.conteiner_thumbnails_banner_rotativo .descricao_logo_lefa_bottom{
+			display: inherit;
+		}
 	}
-}
 
 .barra_conteudo_livros_filmes{
 	width: 100%;
-	height: 31em;
-	margin: 3em 0 3em 0;
-	background: #e8f0ec;
+	height: 17em;
+	margin: 2em 0 3em 0;
+	background: #dce5e0;
 }
+	
+	.barra_conteudo_livros_filmes .conteiner_importancia_leitura{
+		width: 52em;
+		height: 15em;
+		position:absolute;
+		top: 43.3em;
+		left: 50%;
+		margin-top: -7.5em;
+		margin-left: -26em;
+	}
+	
+	.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto{
+		width: 28em;
+		height: 14em;
+		float: left;
+		margin: 0.5em;
+	}
+	
+	.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto h3{
+		text-align: left;
+		font-family: Courier New, monospace;
+		color: #3f505d;
+	}
+	
+	.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto p{
+		margin: 2em 0 2em 0;
+		text-align: inherit;
+		font-family: Courier New, monospace;
+		color: #3f505d;
+	}
+	
+	.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto a{
+		text-align: left;
+		font-family: Courier New, monospace;
+		color: #3f505d;
+	}
+	
+	.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_imagem{
+		width: 20em;
+		height: 12em;
+		float: left;
+		margin: 0.5em 0.5em 0.5em 0.5em;
+	}
+	
+	.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_imagem .borda_img{
+		width: 20em;
+		height: 12em;
+		padding: 1em;
+		background: white;
+		border-width: 1px; 
+	}
+	.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_imagem img{
+		width: 20em;
+		height: 12em;
+	}
 
 	.barra_conteudo_livros_filmes h3{
 		width: 100%;
@@ -196,11 +255,44 @@ html,body{
 		color: #3f505d;
 	}
 	
+	@media all and (max-width: 330px) { 
+		.barra_conteudo_livros_filmes h3{
+			font-size: 1.0em;
+		}
+	}
+	
+	.barra_conteudo_livros_filmes h4{
+		width: 9.7em;
+		height: 1em;
+		top: 70.5em;
+		left: 50%;
+		margin-top: -0.5em;
+		margin-left: -4.85em;	
+		position: absolute;
+		font-family: Courier New, monospace;
+	}
+	
+	.barra_conteudo_livros_filmes h4 a:link,
+	.barra_conteudo_livros_filmes h4 a:visited {
+	    text-decoration: none;
+	    color: #3f505d;
+	}
+	
+	.barra_conteudo_livros_filmes h4 a:hover {
+	    text-decoration: none;
+	    color: #969286;
+	}
+	
+	.barra_conteudo_livros_filmes h4 a:active {
+	    text-decoration: none;
+	}
+		
+	
 	.barra_conteudo_livros_filmes .conteiner_primario_livro_filme {
 		width: 20em;
 		height: 28.7em;
 		position:absolute;
-		top: 54em;
+		top: 55em;
 		left: 18%;
 		margin-top: -14.35em;
 		margin-left: -10em;
@@ -210,7 +302,7 @@ html,body{
 		width: 20em;
 		height: 28.7em;
 		position:absolute;
-		top: 54em;
+		top: 55em;
 		left: 50%;
 		margin-top: -14.35em;
 		margin-left: -10em;
@@ -220,7 +312,7 @@ html,body{
 		width: 20em;
 		height: 28.7em;
 		position:absolute;
-		top: 54em;
+		top: 55em;
 		left: 82%;
 		margin-top: -14.35em;
 		margin-left: -10em;
@@ -260,7 +352,77 @@ html,body{
 		}
 	}
 
+.barra_conteudo_voluntarios{
+	width: 100%;
+	height: 28em;
+	margin: 1em 0 20em 0;
+	background: #e8f0ec;
+}
+
+	.barra_conteudo_voluntarios h3{
+		width: 100%;
+		padding-top: 1em;
+		text-align: center;
+		font-family: Courier New, monospace;
+		color: #3f505d;
+	}
 	
+	@media all and (max-width: 330px) { 
+		.barra_conteudo_voluntarios h3{
+			font-size: 1.0em;
+		}
+	}
+	
+	.barra_conteudo_voluntarios .conteiner_de_fotos{
+		width: 20em;
+		height: 23em;
+		position:absolute;
+		top: 87em;
+		left: 18%;
+		margin-top: -11.5em;
+		margin-left: -10em;
+		background-color: black;
+		
+	}
+	
+	.barra_conteudo_voluntarios .conteiner_de_texto{
+		width: 30em;
+		height: 25em;
+		position:absolute;
+		top: 86em;
+		right: 2%;
+		margin-top: -12.5em;
+		margin-left: -15em;
+		background: red;
+		
+	}
+	
+		.barra_conteudo_voluntarios .conteiner_de_texto h2{
+			width: 100%;
+			font-size: 1.5em;
+			padding-top: 3em;
+			text-align: center;
+			font-family: Courier New, monospace;
+			color: #3f505d;
+		}
+		
+		.barra_conteudo_voluntarios .conteiner_de_texto p{
+			width: auto;
+			padding-top: 3em;
+			text-align: center;
+			font-family: Courier New, monospace;
+			color: #3f505d;
+		}
+		
+		.barra_conteudo_voluntarios .conteiner_de_texto .aaa{
+			width: 100%;
+			padding-top: 4em;
+			text-align: center;
+			font-family: Courier New, monospace;
+			color: #3f505d;
+		}
+
+
 
 
 

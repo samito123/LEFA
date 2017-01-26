@@ -15,22 +15,26 @@
 		<script type="text/javascript" src="javascript/jquery/jquery-1.12.3.min.js" charset="UTF-8"></script>
 <!-- Fim Jquery -->
 
-<!-- Custom-->
-	<!-- CSS Custom-->
-		<link href="css/fotorama/fotorama.css" rel="stylesheet" type="text/css" charset="UTF-8">
-	<!-- Fotorama  -->
-		<script src="javascript/fotorama/fotorama.js"></script>
-<!-- Fim Custom-->
-
 <!-- Angularjs -->
-	<!-- Libs  -->
+	<!-- JS  -->
 		<script type="text/javascript" src="javascript/angular/angular.min.js" charset="UTF-8"></script>
 <!-- Fim Angularjs -->
 
-<!-- Angularjs -->
+<!-- Modernize -->
 	<!-- CSS Custom-->
 		<link href="css/modernizr/modernizr.css" rel="stylesheet" type="text/css" charset="UTF-8">
-	<!-- Libs  -->
+	<!-- JS  -->
 		<script type="text/javascript" src="javascript/modernizr/modernizr.custom.js" charset="UTF-8"></script>
-<!-- Fim Angularjs -->
+<!-- Fim Modernize -->
+
+<!-- Fotorama-->
+	<!-- CSS Custom-->
+		<link href="css/fotorama/fotorama.css" rel="stylesheet" type="text/css" charset="UTF-8">
+	<!-- JS  -->
+		<script src="javascript/fotorama/fotorama.js"></script>
+<!-- Fim Fotorama-->
+
+
+
+
 

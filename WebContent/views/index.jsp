@@ -57,8 +57,24 @@ pageEncoding="UTF-8"%>
 		 	</div>
 		 	
 		 	<div class="barra_conteudo_livros_filmes">
-		 		<h3>Sugestões de livros e filmes</h3>
-		 		
+		 		<div class="conteiner_importancia_leitura">
+			 		<div class="bloco_de_texto">
+			 			<h3>A Importância da Leitura</h3>
+			 			<p>
+			 				A leitura é algo crucial para a aprendizagem do ser humano, 
+			 				pois é através dela que podemos enriquecer nosso vocabulário, 
+			 				obter conhecimento, dinamizar o raciocínio e a interpretação. 
+			 			</p>
+			 			<a href="#">
+			 				Saiba mais
+			 			</a>
+		 			</div>
+		 			<div class="bloco_de_imagem">
+			 			<div class="borda_img"><img alt="" src="imagens/banner/leitura.png;"></div>
+		 			</div>
+		 		</div>
+		 		<!-- <h3>Sugestões de livros e filmes</h3>
+		 		<h4><a href="#">Outras sugestões</a></h4>
 		 		<div class="wrapper">
 			 		<ul class="stage">
 					    
@@ -75,7 +91,7 @@ pageEncoding="UTF-8"%>
 											<div class="aaa">
 												<h1>NOS PASSOS DO MESTRE</h1>
 												<span class="year">2016</span>
-												<span class="rating">Não indicado para menores de 10 anos</span>
+												<span class="rating">Documentário, Drama</span>
 												<span class="duration">1h 40min</span>
 											</div>
 										</header>
@@ -140,11 +156,11 @@ pageEncoding="UTF-8"%>
 											</div>
 										</header>
 										<p>
-									  		Através da ótica do espiritismo, esta é uma 
-									  		reconstituição aprofundada da jornada de Jesus Cristo
-									  	    (Fabio Malosso) na Terra, buscando compreender as lições
-									  		de amor e compaixão que o maior mestre de todos os tempos
-									  		deixou para os homens e mulheres das gerações futuras.
+									  		Ao abrir os olhos André Luiz (Renato Prieto) sabe que 
+									  		não está mais vivo, apesar de ainda sentir sede e fome. 
+									  		Ao seu redor ele apenas vê uma planície escura e desértica,
+									  		marcada por gritos e seres que vivem na sombra. Após passar pelo 
+									  		sofrimento no purgatório, André é levado para a cidade de Nosso Lar... 			
 										</p>
 										
 									</div>
@@ -153,7 +169,32 @@ pageEncoding="UTF-8"%>
 						</div>
 						
 				  	</ul> 
+				</div> -->
+		 	</div>
+		 	
+		 	<div class="barra_conteudo_voluntarios">
+		 		<!--  <h3>Voluntários</h3>  -->
+		 		
+		 		<div class="conteiner_de_fotos">  
+			 		
 				</div>
+			
+		 		<!--  <div class="conteiner_de_texto">
+		 			<h2>
+		 				Trabalhadores Voluntários
+		 			</h2>
+		 			<p>
+		 				Blah!Blah!Blah!Blah!Blah!Blah!Blah!Blah!
+		 				Blah!Blah!Blah!Blah!Blah!Blah!Blah!Blah!
+		 				Blah!Blah!Blah!Blah!Blah!Blah!Blah!Blah!
+		 			</p>
+		 			<div class="aaa">
+		 				<a href="#">
+			 				Saiba mais sobre cada um deles
+			 			</a>
+		 			</div>
+		 			
+		 		</div>-->
 		 	</div>
 		 	
 		</div>
@@ -174,3 +215,4 @@ pageEncoding="UTF-8"%>
 		}]);
 	</script>
 <!-- ANGULAR JS -->
+

@@ -20,200 +20,214 @@ html,body{
 
 .conteiner_menu{
 	width: 100%;
-	height: 28em;
+	padding-bottom: 31em;
 	background-color: #2d2d2d;
-	border-radius: 0 0 10px 10px;
-}
-
-@media all and (max-width: 450px) { 
-	.conteiner_menu{
-		height: 26em;
-	}
 }
 
 	.conteiner_menu .menu{
-		width: 85%;
+		width: 75%;
 		height: auto;
-		position: absolute;
-		top: 0.8em;
-		margin: 0 7.5% 0 7.5%;
+		margin: 0 12.5% 0 12.5%;
+	}
+	
+	@media all and (max-width: 700px) { 
+		.conteiner_menu .menu{
+			width: 90%;
+			margin: 0 5% 0 5%;
+		}
+	}
+	
+	.conteiner_menu .menu .botao_menu {
+		width: 1em;
+		float: left;
+		margin: 1.3em 1.2em 0 0;
+		font-size: 1.4em;
+	}
+	
+	.conteiner_menu .menu .botao_menu a,
+	.conteiner_menu .menu .botao_menu a:visited {
+		background: transparent;
+		color: #dcd2be;
+		text-align: center;
+		border: solid 1px #dcd2be;
+		border-radius: 5px;
+		padding: 0.2em 0.4em 0.2em 0.4em;
+		text-decoration: none;
+	}
+	.conteiner_menu .menu .botao_menu a:hover {
+		background: transparent;
+		border: solid 1px #969286;
+		padding: 0.25em 0.4em 0.15em 0.4em;
+	}
+	.conteiner_menu .menu .botao_menu a:focus {
+		background: transparent;
 	}
 	
 	.conteiner_menu .menu .logo_lefa{
+		margin: 0.7em 0 0 0;
+		float: left;
 		font: italic small-caps bold 14px "Comic Sans MS", sans-serif;
 		font-size: 2em;
 		color: #dcd2be;
 	}
 	
-	.conteiner_menu .menu .descricao_logo_lefa_top{
-		float: left;
+	.conteiner_menu .menu .descricao_logo_lefa{
+		margin: 2.5em 0 0 0;
 		font: italic small-caps bold 14px "Comic Sans MS", sans-serif;
 		font-size: 1em;
 		color: #dcd2be;
-	}
-	
-	@media all and (max-width: 450px) { 
-		.conteiner_menu .menu .descricao_logo_lefa_top{
-			display: none;
-		}
-	}
-	
-	.conteiner_menu .menu .menu_direito{
 		float: right;
-		font: italic small-caps bold 14px "Comic Sans MS", sans-serif;
-		font-size: 1.1em;
-		color: #dcd2be;
 	}
 	
-	@media all and (max-width: 1060px) { 
-		.conteiner_menu .menu .menu_direito{
-			display: none;
+	@media all and (max-width: 700px) { 
+		.conteiner_menu .menu .descricao_logo_lefa{
+			width: 17.5em;
+			height: 1.5em;
+			position:absolute;
+			top: 4.5em;
+			left: 5%;
+			margin-top: -1em;
+			margin-left: -8.75em;
+			float: none;
+			margin: 0;
 		}
 	}
 	
-	.conteiner_menu .menu .menu_direito .link_menu{
-		float: left;
-		margin: 0 0.7em 0 0;
-	}
-	
-	.conteiner_menu .menu .menu_direito .link_menu_final{
-		float: left;
-		margin: 0;
-	}
-	
-	.conteiner_menu .menu  
-	a:link, a:visited {
-		text-decoration: none;
-		color: #dcd2be;
-	}a:hover {
-		text-decoration: underline; 
-		color: #969286;
-	}a:active {
-		text-decoration: none;
-	}
-	
-	.conteiner_menu .menu .conteiner_menu_opcoes{
-		height: 5em;
-		padding: 1em 0 0 0;
-		float: right;
-		display: none;
-	}
-	
-	@media all and (max-width: 1060px) { 
-		.conteiner_menu .menu .conteiner_menu_opcoes{
-			display: inherit;
+	@media all and (max-width: 340px) { 
+		.conteiner_menu .menu .descricao_logo_lefa{
+			top: 5.5em;
+			font-size: 0.8em;
 		}
 	}
 	
-	@media all and (max-width: 450px) { 
-		.conteiner_menu .menu .conteiner_menu_opcoes{
-			float: left;
-			padding: 0.5em 0.5em 0 0;
-		}
-	}
-	
-	.conteiner_menu .menu .conteiner_menu_opcoes .botao_menu{
-		width: 3em;
-		height: 2.4em;
-		color: #dcd2be;
-		background-color: transparent;
-		border-radius: 6px;
-		border: 1;
-		border-color: #dcd2be;
-		font-size: 0.8em;
-	}
-	
-.conteiner_banner{
-	width: 85%;
-	position: absolute;
-	margin: 1% 7.5% 1% 7.5%;
-	top: 5em;
-}
-
-@media all and (max-width: 450px) { 
-	.conteiner_banner{
-		top: 3.5em;
-	}
-}
-	
-.conteiner_thumbnails_banner_rotativo{
-	min-width: 88%;
-	height: 4.8em;
-	margin: 0 6% 0 6%;
-	background: #2d2d2d;
-	border-radius: 0 0 10px 10px;
-}
-
-@media all and (max-width: 450px) { 
-	.conteiner_thumbnails_banner_rotativo{
-		height: 7.5em;
-	}
-}
-
-	.conteiner_thumbnails_banner_rotativo .camada_de_enchimento{
-		width: 100%;
-		height: 4.5em;
-		float: left;
-	}
-	
-	.conteiner_thumbnails_banner_rotativo .descricao_logo_lefa_bottom{
-		text-align: center;
-		font: italic small-caps bold 14px "Comic Sans MS", sans-serif;
-		font-size: 1em;
-		color: #dcd2be;
-		display: none;
-	}
-	
-	.conteiner_thumbnails_banner_rotativo .descricao_logo_lefa_bottom a:link, 
-	.conteiner_thumbnails_banner_rotativo .descricao_logo_lefa_bottom a:visited {
+	.conteiner_menu .menu a:link, 
+	.conteiner_menu .menu a:visited {
 		text-decoration: none;
 		color: #dcd2be;
 	} 
 	
-	.conteiner_thumbnails_banner_rotativo .descricao_logo_lefa_bottom a:hover {
-		text-decoration: underline; 
+	.conteiner_menu .menu a:hover {
+		text-decoration: none; 
 		color: #969286;
 	}
 	
-	.conteiner_thumbnails_banner_rotativo .descricao_logo_lefa_bottom a:active {
+	.conteiner_menu .menu a:active {
 		text-decoration: none;
 	}
-	
-	@media all and (max-width: 450px) { 
-		.conteiner_thumbnails_banner_rotativo .descricao_logo_lefa_bottom{
-			display: inherit;
-		}
-	}
 
-.barra_conteudo_livros_filmes{
-	width: 100%;
-	height: 17em;
-	margin: 2em 0 3em 0;
-	background: #dce5e0;
+
+.conteiner_banner{
+	width: 74.7%;
+	position: absolute;
+	margin: 1% 12.5% 1% 12.5%;
+	top: 4.3em;
+	border: solid #dcd2be;
+	border-radius: 4px;
+}
+
+@media all and (max-width: 700px) { 
+	.conteiner_banner{
+		width: 89.7%;
+		margin: 1% 5% 1% 5%;
+		top: 6em;
+	}
 }
 	
+.barra_conteudo_livros_filmes{
+	width: 100%;
+	margin: 5em 0 0 0;
+}
+
 	.barra_conteudo_livros_filmes .conteiner_importancia_leitura{
-		width: 52em;
-		height: 15em;
-		position:absolute;
-		top: 43.3em;
-		left: 50%;
-		margin-top: -7.5em;
-		margin-left: -26em;
+		width: 75%;
+		height: 19em;
+		margin: 0 12.5% 0 12.5%;
+	}
+	
+	@media all and (max-width: 1140px) { 
+		.barra_conteudo_livros_filmes .conteiner_importancia_leitura{
+			width: 100%;
+			margin: 0;		
+		}
 	}
 	
 	.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto{
-		width: 28em;
-		height: 14em;
+		width: 53%;
+		height: 100%;
+		margin: 0 2% 0 0;
 		float: left;
-		margin: 0.5em;
+	}
+	
+	@media all and (max-width: 1140px) { 
+		.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto{
+			width: 90%;
+			height: auto;
+			margin: 0 5% 1em 5%;
+		}
 	}
 	
 	.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto h3{
+		margin: 1em 0 0 0;
 		text-align: left;
 		font-family: Courier New, monospace;
 		color: #3f505d;
 	}
+	
+	@media all and (max-width: 1140px) { 
+		.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto h3{
+			text-align: center;
+		}
+	}
+	
+	@media all and (max-width: 500px) { 
+		.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto h3{
+			font-size: 1em;
+		}
+	}
+	
+	.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto p{
+		margin: 0.7em 0 0 0;
+		text-align: inherit;
+		font-family: Courier New, monospace;
+		color: #3f505d;
+	}
+	
+	@media all and (max-width: 1140px) { 
+		.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto p{
+			text-align: center;
+		}
+	}
+	
+	@media all and (max-width: 500px) { 
+		.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto p{
+			font-size: 0.8em;
+		}
+	}
+	
+	.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_imagem{
+		position: relative;
+		float: right;
+		top: 1em;
+		padding-bottom: 5em;
+	}
+	
+	@media all and (max-width: 1140px) { 
+		.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_imagem{
+			float: left;
+			top: 6em;
+			left: 47%;
+			margin-top: -100px;
+			margin-left: -150px;
+			padding-bottom: 8em;
+		}
+	}
+	
+	.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_imagem img{
+		width: 100%;
+		height: 100%;
+	}
+	
+	/*
 	
 	.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto p{
 		margin: 2em 0 2em 0;
@@ -285,7 +299,7 @@ html,body{
 	
 	.barra_conteudo_livros_filmes h4 a:active {
 	    text-decoration: none;
-	}
+	}*/
 		
 	
 	.barra_conteudo_livros_filmes .conteiner_primario_livro_filme {

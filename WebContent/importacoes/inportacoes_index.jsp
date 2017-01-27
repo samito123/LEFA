@@ -34,6 +34,12 @@
 		<script src="javascript/fotorama/fotorama.js"></script>
 <!-- Fim Fotorama-->
 
+<!-- Hover Img-->
+	<!-- CSS Custom-->
+		<link href="css/aaa/style_hover_img.css" rel="stylesheet" type="text/css" charset="UTF-8">
+<!-- Fim Hover Img-->
+
+
 
 
 

@@ -17,31 +17,29 @@ pageEncoding="UTF-8"%>
 		
 		<div class="container">
 			 <div class="conteiner_menu">
-				<div class="menu">
-					<div class="conteiner_menu_opcoes">
-						<button class="botao_menu">
-							&#9776
-						</button>
-					</div>
+				<div class="menu">	
+					<div class="botao_menu">
+						<a href="#" title="Menu">&#9776</a>
+					</div>		
 					<div class="logo_lefa">
 						<a href="#">{{lf.nome_instituicao}}</a>
 					</div>
-					<div class="descricao_logo_lefa_top">
+					<div class="descricao_logo_lefa">
 						<a href="#">{{lf.descricao_instituicao}}</a>
 					</div>
-					<div class="menu_direito">
+					<!-- <div class="menu_direito">
 						<div class="link_menu"><a href="#">Home</a></div>	
 						<div class="link_menu"><a href="#">Agenda</a></div>		
 						<div class="link_menu"><a href="#">Ações</a></div>
 						<div class="link_menu"><a href="#">Voluntários</a></div>
 						<div class="link_menu"><a href="#">Patrocinadores</a></div>	
 						<div class="link_menu_final"><a href="#">Contato</a></div>		
-					</div>		
+					</div>	 -->	
 				</div>
 			</div>
 			
 			<div class="conteiner_banner">
-				<div class="fotorama" data-width="100%" data-height="415" 
+				<div class="fotorama" data-width="100%" data-height="370" 
 				data-fit="cover" data-autoplay="3000" data-nav="false">
 					<img src="imagens/banner/mimimi.png" data-caption="{{lf.aaa}}">
 					<img src="imagens/banner/03.png" data-caption="Reunião dos trabalhadores - 20/01/2017">
@@ -49,15 +47,64 @@ pageEncoding="UTF-8"%>
 				</div>
 		 	</div>
 		 	
-		 	<div class="conteiner_thumbnails_banner_rotativo">
-		 		<div class="camada_de_enchimento"></div>
-		 		<div class="descricao_logo_lefa_bottom">
-					<a href="#">{{lf.descricao_instituicao}}</a>
-				</div>
-		 	</div>
-		 	
 		 	<div class="barra_conteudo_livros_filmes">
 		 		<div class="conteiner_importancia_leitura">
+		 			<div class="bloco_de_texto">
+		 				<h3>A Importância da Leitura</h3>
+		 				<p>
+			 				A leitura é algo crucial para a aprendizagem do ser humano, 
+			 				pois é através dela que podemos enriquecer nosso vocabulário, 
+			 				obter conhecimento, dinamizar o raciocínio e a interpretação.
+		 				</p>
+		 				<p>
+			 				Muitas pessoas dizem não ter paciência para ler um livro, no 
+			 				entanto isso acontece por falta de hábito, pois se a leitura fosse 
+			 				um hábito rotineiro as pessoas saberiam apreciar uma boa obra literária, por exemplo.
+			 			</p>
+		 			</div>
+		 			<div class="bloco_de_imagem">
+		 				<div class="view view-first">  	   	
+						    <img src="imagens/banner/leitura.png" />  
+						    <div class="mask">  
+							    <h2>Livros</h2>  
+							    <p>A importância de Ler</p>  
+						        <a href="#" class="info">Leia Mais</a>  
+						    </div>  			     
+						</div>  
+			 			<!--  <div class="borda_img"><img alt="" src="imagens/banner/leitura.png;"></div>-->
+		 			</div>
+		 		</div>
+		 		
+			 		
+			 	<div class="conteiner_importancia_leitura">
+		 			<div class="bloco_de_texto">
+		 				<h3>A Importância da Leitura</h3>
+		 				<p>
+			 				A leitura é algo crucial para a aprendizagem do ser humano, 
+			 				pois é através dela que podemos enriquecer nosso vocabulário, 
+			 				obter conhecimento, dinamizar o raciocínio e a interpretação.
+		 				</p>
+		 				<p>
+			 				Muitas pessoas dizem não ter paciência para ler um livro, no 
+			 				entanto isso acontece por falta de hábito, pois se a leitura fosse 
+			 				um hábito rotineiro as pessoas saberiam apreciar uma boa obra literária, por exemplo.
+			 			</p>
+		 			</div>
+		 			<div class="bloco_de_imagem">
+		 				<div class="view view-first">  	   	
+						    <img src="imagens/banner/leitura.png" />  
+						    <div class="mask">  
+							    <h2>Livros</h2>  
+							    <p>A importância de Ler</p>  
+						        <a href="#" class="info">Leia Mais</a>  
+						    </div>  			     
+						</div>  
+			 			<!--  <div class="borda_img"><img alt="" src="imagens/banner/leitura.png;"></div>-->
+		 			</div>
+		 		</div>	
+		 		
+		 		
+		 		<!--<div class="conteiner_importancia_leitura">
 			 		<div class="bloco_de_texto">
 			 			<h3>A Importância da Leitura</h3>
 			 			<p>
@@ -72,7 +119,7 @@ pageEncoding="UTF-8"%>
 		 			<div class="bloco_de_imagem">
 			 			<div class="borda_img"><img alt="" src="imagens/banner/leitura.png;"></div>
 		 			</div>
-		 		</div>
+		 		</div>-->
 		 		<!-- <h3>Sugestões de livros e filmes</h3>
 		 		<h4><a href="#">Outras sugestões</a></h4>
 		 		<div class="wrapper">
@@ -172,8 +219,8 @@ pageEncoding="UTF-8"%>
 				</div> -->
 		 	</div>
 		 	
-		 	<div class="barra_conteudo_voluntarios">
-		 		<!--  <h3>Voluntários</h3>  -->
+		 	<!--<div class="barra_conteudo_voluntarios">
+		 		  <h3>Voluntários</h3> 
 		 		
 		 		<div class="conteiner_de_fotos">  
 			 		
@@ -194,8 +241,8 @@ pageEncoding="UTF-8"%>
 			 			</a>
 		 			</div>
 		 			
-		 		</div>-->
-		 	</div>
+		 		</div>
+		 	</div>-->
 		 	
 		</div>
 		

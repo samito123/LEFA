@@ -66,40 +66,39 @@ pageEncoding="UTF-8"%>
 		 				<div class="view view-first">  	   	
 						    <img src="imagens/banner/leitura.png" />  
 						    <div class="mask">  
-							    <h2>Livros</h2>  
+							    <h2>Cultura</h2>  
 							    <p>A importância de Ler</p>  
-						        <a href="#" class="info">Leia Mais</a>  
+						        <a href="#" class="info">Sugestões de livros</a>  
 						    </div>  			     
 						</div>  
-			 			<!--  <div class="borda_img"><img alt="" src="imagens/banner/leitura.png;"></div>-->
 		 			</div>
 		 		</div>
 		 		
 			 		
-			 	<div class="conteiner_importancia_leitura">
-		 			<div class="bloco_de_texto">
-		 				<h3>A Importância da Leitura</h3>
-		 				<p>
-			 				A leitura é algo crucial para a aprendizagem do ser humano, 
-			 				pois é através dela que podemos enriquecer nosso vocabulário, 
-			 				obter conhecimento, dinamizar o raciocínio e a interpretação.
-		 				</p>
-		 				<p>
-			 				Muitas pessoas dizem não ter paciência para ler um livro, no 
-			 				entanto isso acontece por falta de hábito, pois se a leitura fosse 
-			 				um hábito rotineiro as pessoas saberiam apreciar uma boa obra literária, por exemplo.
-			 			</p>
-		 			</div>
+			 	<div class="conteiner_importancia_filmes">
 		 			<div class="bloco_de_imagem">
 		 				<div class="view view-first">  	   	
-						    <img src="imagens/banner/leitura.png" />  
+						    <img src="imagens/banner/filme.png" />  
 						    <div class="mask">  
-							    <h2>Livros</h2>  
-							    <p>A importância de Ler</p>  
-						        <a href="#" class="info">Leia Mais</a>  
+							    <h2>Cultura</h2>  
+							    <p>A importância dos filmes</p>  
+						        <a href="#" class="info">Sugestões de filmes</a>  
 						    </div>  			     
 						</div>  
-			 			<!--  <div class="borda_img"><img alt="" src="imagens/banner/leitura.png;"></div>-->
+		 			</div>
+		 			<div class="bloco_de_texto">
+		 				<h3>A Importância Cutural dos Filmes</h3>
+		 				<p>
+			 				Desde 1895, filmes foram feitos para emocionar, alegrar e surpreender seu público. 
+			 				Muitos deles mostram personagens com características bem marcadas. 
+			 				Características que podem ter um leve tom cultural. 
+		 				</p>
+		 				<p>
+			 				Seja nas gírias, ou no sotaque, seja no modo de viver ou através de fatos relembrados 
+			 				de acordo com seu lugar de origem. Os filmes tem uma importância cultural muito grande,
+			 				pois é através deles que descobrimos os costumes de terras 
+			 				longínquas, as quais nunca visitamos.
+			 			</p>
 		 			</div>
 		 		</div>	
 		 		
@@ -120,7 +119,8 @@ pageEncoding="UTF-8"%>
 			 			<div class="borda_img"><img alt="" src="imagens/banner/leitura.png;"></div>
 		 			</div>
 		 		</div>-->
-		 		<!-- <h3>Sugestões de livros e filmes</h3>
+		 		<!--
+ <h3>Sugestões de livros e filmes</h3>
 		 		<h4><a href="#">Outras sugestões</a></h4>
 		 		<div class="wrapper">
 			 		<ul class="stage">

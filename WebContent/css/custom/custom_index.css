@@ -25,15 +25,15 @@ html,body{
 }
 
 	.conteiner_menu .menu{
-		width: 75%;
+		width: 75.5%;
 		height: auto;
-		margin: 0 12.5% 0 12.5%;
+		margin: 0 12.5% 0 12%;
 	}
 	
 	@media all and (max-width: 700px) { 
 		.conteiner_menu .menu{
 			width: 90%;
-			margin: 0 5% 0 5%;
+			margin: 0 6% 0 4%;
 		}
 	}
 	
@@ -117,9 +117,9 @@ html,body{
 
 
 .conteiner_banner{
-	width: 74.7%;
+	width: 75%;
 	position: absolute;
-	margin: 1% 12.5% 1% 12.5%;
+	margin: 1% 13% 1% 12%;
 	top: 4.3em;
 	border: solid #dcd2be;
 	border-radius: 4px;
@@ -127,21 +127,22 @@ html,body{
 
 @media all and (max-width: 700px) { 
 	.conteiner_banner{
-		width: 89.7%;
-		margin: 1% 5% 1% 5%;
+		width: 90%;
+		margin: 1% 6% 1% 4%;
 		top: 6em;
 	}
 }
 	
 .barra_conteudo_livros_filmes{
 	width: 100%;
-	margin: 5em 0 0 0;
+	margin: 3em 0 0 0;
 }
 
 	.barra_conteudo_livros_filmes .conteiner_importancia_leitura{
 		width: 75%;
 		height: 19em;
 		margin: 0 12.5% 0 12.5%;
+		background: red;
 	}
 	
 	@media all and (max-width: 1140px) { 
@@ -151,156 +152,184 @@ html,body{
 		}
 	}
 	
-	.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto{
-		width: 53%;
-		height: 100%;
-		margin: 0 2% 0 0;
-		float: left;
-	}
-	
-	@media all and (max-width: 1140px) { 
 		.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto{
-			width: 90%;
-			height: auto;
-			margin: 0 5% 1em 5%;
-		}
-	}
-	
-	.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto h3{
-		margin: 1em 0 0 0;
-		text-align: left;
-		font-family: Courier New, monospace;
-		color: #3f505d;
-	}
-	
-	@media all and (max-width: 1140px) { 
-		.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto h3{
-			text-align: center;
-		}
-	}
-	
-	@media all and (max-width: 500px) { 
-		.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto h3{
-			font-size: 1em;
-		}
-	}
-	
-	.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto p{
-		margin: 0.7em 0 0 0;
-		text-align: inherit;
-		font-family: Courier New, monospace;
-		color: #3f505d;
-	}
-	
-	@media all and (max-width: 1140px) { 
-		.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto p{
-			text-align: center;
-		}
-	}
-	
-	@media all and (max-width: 500px) { 
-		.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto p{
-			font-size: 0.8em;
-		}
-	}
-	
-	.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_imagem{
-		position: relative;
-		float: right;
-		top: 1em;
-		padding-bottom: 5em;
-	}
-	
-	@media all and (max-width: 1140px) { 
-		.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_imagem{
+			width: 53%;
+			height: 100%;
+			margin: 0 2% 0 0;
 			float: left;
-			top: 6em;
-			left: 47%;
-			margin-top: -100px;
-			margin-left: -150px;
-			padding-bottom: 8em;
 		}
-	}
 	
-	.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_imagem img{
-		width: 100%;
-		height: 100%;
-	}
-	
-	/*
-	
-	.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto p{
-		margin: 2em 0 2em 0;
-		text-align: inherit;
-		font-family: Courier New, monospace;
-		color: #3f505d;
-	}
-	
-	.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto a{
-		text-align: left;
-		font-family: Courier New, monospace;
-		color: #3f505d;
-	}
-	
-	.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_imagem{
-		width: 20em;
-		height: 12em;
-		float: left;
-		margin: 0.5em 0.5em 0.5em 0.5em;
-	}
-	
-	.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_imagem .borda_img{
-		width: 20em;
-		height: 12em;
-		padding: 1em;
-		background: white;
-		border-width: 1px; 
-	}
-	.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_imagem img{
-		width: 20em;
-		height: 12em;
-	}
-
-	.barra_conteudo_livros_filmes h3{
-		width: 100%;
-		padding-top: 1em;
-		text-align: center;
-		font-family: Courier New, monospace;
-		color: #3f505d;
-	}
-	
-	@media all and (max-width: 330px) { 
-		.barra_conteudo_livros_filmes h3{
-			font-size: 1.0em;
+		@media all and (max-width: 1140px) { 
+			.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto{
+				width: 90%;
+				height: auto;
+				margin: 0 5% 1em 5%;
+			}
 		}
-	}
 	
-	.barra_conteudo_livros_filmes h4{
-		width: 9.7em;
-		height: 1em;
-		top: 70.5em;
-		left: 50%;
-		margin-top: -0.5em;
-		margin-left: -4.85em;	
-		position: absolute;
-		font-family: Courier New, monospace;
-	}
-	
-	.barra_conteudo_livros_filmes h4 a:link,
-	.barra_conteudo_livros_filmes h4 a:visited {
-	    text-decoration: none;
-	    color: #3f505d;
-	}
-	
-	.barra_conteudo_livros_filmes h4 a:hover {
-	    text-decoration: none;
-	    color: #969286;
-	}
-	
-	.barra_conteudo_livros_filmes h4 a:active {
-	    text-decoration: none;
-	}*/
+			.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto h3{
+				margin: 1em 0 0 0;
+				text-align: left;
+				font-family: Courier New, monospace;
+				color: #3f505d;
+			}
 		
+			@media all and (max-width: 1140px) { 
+				.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto h3{
+					text-align: center;
+				}
+			}
+	
+			@media all and (max-width: 500px) { 
+				.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto h3{
+					font-size: 1em;
+				}
+			}
+		
+			.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto p{
+				margin: 0.7em 0 0 0;
+				text-align: inherit;
+				font-family: Courier New, monospace;
+				color: #3f505d;
+			}
+	
+			@media all and (max-width: 1140px) { 
+				.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto p{
+					text-align: center;
+				}
+			}
+	
+			@media all and (max-width: 500px) { 
+				.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_texto p{
+					font-size: 0.8em;
+				}
+			}
+	
+		.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_imagem{
+			position: relative;
+			float: right;
+			top: 1em;
+			margin: 3em 0 0 0;
+			padding-bottom: 5em;
+		}
+		
+		@media all and (max-width: 1140px) { 
+			.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_imagem{
+				float: left;
+				top: 6em;
+				left: 47%;
+				margin-top: -100px;
+				margin-left: -150px;
+				padding-bottom: 8em;
+			}
+		}
+	
+		.barra_conteudo_livros_filmes .conteiner_importancia_leitura .bloco_de_imagem img{
+			width: 100%;
+			height: 100%;
+		}
+		
+	
+	.barra_conteudo_livros_filmes .conteiner_importancia_filmes{
+		width: 75%;
+		height: 19em;
+		margin: 3em 12.5% 0 12.5%;
+		background: aqua;
+	}
+	
+	@media all and (max-width: 1140px) { 
+		.barra_conteudo_livros_filmes .conteiner_importancia_filmes{
+			width: 100%;
+			margin: 0;		
+		}
+	}
+	
+		.barra_conteudo_livros_filmes .conteiner_importancia_filmes .bloco_de_imagem{
+			position: relative;
+			float: left;
+			top: 2.2em;
+			padding-bottom: 5em;
+		}
+		
+		@media all and (max-width: 1140px) { 
+			.barra_conteudo_livros_filmes .conteiner_importancia_filmes .bloco_de_imagem{
+				width: 100%;
+				float: none;
+				margin: 0 0 0 0;
+				padding-bottom: 8em;
+			}
+		}
+	
+		.barra_conteudo_livros_filmes .conteiner_importancia_filmes .bloco_de_imagem img{
+			width: 100%;
+			height: 100%;
+		}
+	
+		.barra_conteudo_livros_filmes .conteiner_importancia_filmes .bloco_de_texto{
+			width: 53%;
+			height: 100%;
+			margin: 0 0 0 2%;
+			float: right;
+		}
+	
+		@media all and (max-width: 1140px) { 
+			.barra_conteudo_livros_filmes .conteiner_importancia_filmes .bloco_de_texto{
+				width: 90%;
+				height: auto;
+				margin: 0 5% 1em 5%;
+			}
+		}
+	
+		.barra_conteudo_livros_filmes .conteiner_importancia_filmes .bloco_de_texto h3{
+			margin: 1em 0 0 0;
+			text-align: left;
+			font-family: Courier New, monospace;
+			color: #3f505d;
+		}
+	
+		@media all and (max-width: 1140px) { 
+			.barra_conteudo_livros_filmes .conteiner_importancia_filmes .bloco_de_texto h3{
+				text-align: center;
+			}
+		}
+
+		@media all and (max-width: 500px) { 
+			.barra_conteudo_livros_filmes .conteiner_importancia_filmes .bloco_de_texto h3{
+				font-size: 1em;
+			}
+		}
+	
+		.barra_conteudo_livros_filmes .conteiner_importancia_filmes .bloco_de_texto p{
+			margin: 0.7em 0 0 0;
+			text-align: inherit;
+			font-family: Courier New, monospace;
+			color: #3f505d;
+		}
+
+		@media all and (max-width: 1140px) { 
+			.barra_conteudo_livros_filmes .conteiner_importancia_filmes .bloco_de_texto p{
+				text-align: center;
+			}
+		}
+
+		@media all and (max-width: 500px) { 
+			.barra_conteudo_livros_filmes .conteiner_importancia_filmes .bloco_de_texto p{
+				font-size: 0.8em;
+			}
+		}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	.barra_conteudo_livros_filmes .conteiner_primario_livro_filme {
 		width: 20em;

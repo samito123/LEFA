@@ -47,6 +47,46 @@ pageEncoding="UTF-8"%>
 				</div>
 		 	</div>
 		 	
+		 	<div class="barra_conteudo_agenda_eventos_cursos">
+				<div class="conteiner">
+					<div class="conteiner_agenda">
+						<div class="bloco_de_imagem">
+							<div class="view view-first">  	   	
+							    <img src="imagens/banner/leitura.png" />  
+							    <div class="mask">  
+								    <h2>Cultura</h2>  
+								    <p>A importância de Ler</p>  
+							        <a href="#" class="info">Sugestões de livros</a>  
+							    </div>  			     
+							</div>  
+						</div>	
+					</div>
+					
+					<div class="conteiner_eventos">
+						<div class="bloco_de_imagem">
+							<div class="view view-first">  	   	
+							    <img src="imagens/banner/nossolar.png" />  
+							    <div class="mask">  
+								    <h2>Cultura</h2>  
+								    <p>A importância de Ler</p>  
+							        <a href="#" class="info">Sugestões de livros</a>  
+							    </div>  			     
+							</div>  
+						</div>
+					</div>
+					
+				</div>
+				
+				
+				
+				<!--<div class="calendar" data-color="normal">
+					<div data-role="day" data-day="201721">
+						<div data-role="event" data-name="This is an event" data-start="9.00" data-end="9.30" data-location="The Web"></div>
+						<div data-role="event" data-name="This is also an event" data-start="10.00" data-end="11.00" data-location="At Home"></div>
+					</div>
+				</div>-->
+	 		</div>
+	 		
 		 	<div class="barra_conteudo_livros_filmes">
 		 		<div class="conteiner_importancia_leitura">
 		 			<div class="bloco_de_texto">
@@ -73,8 +113,7 @@ pageEncoding="UTF-8"%>
 						</div>  
 		 			</div>
 		 		</div>
-		 		
-			 		
+		 				
 			 	<div class="conteiner_importancia_filmes">
 		 			<div class="bloco_de_imagem">
 		 				<div class="view view-first">  	   	
@@ -101,8 +140,8 @@ pageEncoding="UTF-8"%>
 			 			</p>
 		 			</div>
 		 		</div>	
-		 		
-		 		
+	 		</div>
+	 		
 		 		<!--<div class="conteiner_importancia_leitura">
 			 		<div class="bloco_de_texto">
 			 			<h3>A Importância da Leitura</h3>
@@ -217,7 +256,7 @@ pageEncoding="UTF-8"%>
 						
 				  	</ul> 
 				</div> -->
-		 	</div>
+		 	
 		 	
 		 	<!--<div class="barra_conteudo_voluntarios">
 		 		  <h3>Voluntários</h3> 
@@ -251,6 +290,32 @@ pageEncoding="UTF-8"%>
 
 <!-- ANGULAR JS -->
 	<script type="text/javascript">
+		
+		var calendarArray =[];
+		var monthOffset = [0,1,2,3,4,5,6,7,8,9,10,11];
+		var monthArray = [["JAN","Janeiro"],["FEV","Fevereiro"],["MAR","Março"],["ABR","Abril"],["MAI","Maio"],
+		                  ["JUN","Junho"],["JUL","Julho"],["AGO","Agosto"],["SET","Setembro"],["OUT","Outubro"],
+		                  ["NOV","Novembro"],["DEZ","Dezembro"]];
+		var letrasArray = ["Seg","Ter","Qua","Qui","Sex","Sab","Dom"];
+		var dayArray = ["0","1","2","3","4","5","6"];
+		$(document).ready(function() {
+			$(document).on('click','.calendar-day.have-events',activateDay);
+			$(document).on('click','.specific-day',activatecalendar);
+			$(document).on('click','.calendar-month-view-arrow',offsetcalendar);
+			$(window).resize(calendarScale);
+			//$(".calendar").calendar({
+			//	"201721": {
+			//		"Mulberry Festival": {
+			//			start: "8:00",
+			//			end: "9:00",
+			//			location: "LALALA"
+			//		}
+			//	}
+			//});
+		calendarSet();
+		calendarScale();
+		});
+		
 		var app = angular.module('LefaApp',[] );
 		app.controller('LEFA', ['$http',function($http){
 			

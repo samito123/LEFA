@@ -20,7 +20,7 @@ html,body{
 
 .conteiner_menu{
 	width: 100%;
-	padding-bottom: 31em;
+	padding-bottom: 35em;
 	background-color: #2d2d2d;
 }
 
@@ -132,87 +132,143 @@ html,body{
 		top: 6em;
 	}
 }
-	
-.barra_conteudo_agenda_eventos_cursos{
-	width: 100%;
+
+.barra_titulo_agenda_eventos{
+	width: 24em;
+	height: 6em;
 	float: left;
-	margin: 3em 0 3em 0;
-	padding: 2em 0 2em 0;
-	background: #2d2d2d;
-}
-	
-	.barra_conteudo_agenda_eventos_cursos .conteiner{
-		width: 75%;
-		float: left;
-		padding: 2em 0 2em 0;
-		margin: 0 12.5% 0 12.5%;
-		background: red;
-	}
-	
-	@media all and (max-width: 930px) { 
-		.barra_conteudo_agenda_eventos_cursos .conteiner{
-			width: 100%;
-			margin: 0;
-			padding: 2em 0 2em 0;
+	position: relative;
+	top: 0;
+	left: 50%;
+	margin-top: -3em;
+	margin-left: -12em;	
+	background-color: #dce5e0;
+	-moz-box-shadow: 0px -30px 20px #2d2d2d;
+	-webkit-box-shadow: 0px -30px 20px #2d2d2d;
+}	
+
+	@media all and (max-width: 560px) { 
+		.barra_titulo_agenda_eventos{
+			width: 16em;
+			margin-left: -8em;	
 		}
 	}
 
-		.barra_conteudo_agenda_eventos_cursos .conteiner .conteiner_agenda{
+	.barra_titulo_agenda_eventos h3{
+		margin: 1em 0 0 0;
+		text-align: center;
+		font-family: Courier New, monospace;
+		color: #3f505d;
+	}
+	
+	@media all and (max-width: 560px) { 
+		.barra_titulo_agenda_eventos h3{
+			font-size: 1em;
+		}
+	}
+	
+	
+.barra_conteudo_agenda_eventos{
+	width: 100%;
+	float: left;
+	margin: 3em 0 0 0;
+	padding: 2em 0 0 0;
+}
+	
+	.barra_conteudo_agenda_eventos .conteiner{
+		width: 75%;
+		float: left;
+		margin: 0 12.5% 0 12.5%;
+	}
+	
+	@media all and (max-width: 930px) { 
+		.barra_conteudo_agenda_eventos .conteiner{
+			width: 100%;
+			margin: 0;
+		}
+	}
+
+		.barra_conteudo_agenda_eventos .conteiner .conteiner_agenda{
 			width: 50%;
+			height: 22em;
 			float: left;
-			background: purple;
 		}
 		
 		@media all and (max-width: 930px) { 
-			.barra_conteudo_agenda_eventos_cursos .conteiner .conteiner_agenda{
+			.barra_conteudo_agenda_eventos .conteiner .conteiner_agenda{
 				width: 100%;
-				height: 13em;
 			}
 		}
 		
-			.barra_conteudo_agenda_eventos_cursos .conteiner .conteiner_agenda .bloco_de_imagem{
+			.barra_conteudo_agenda_eventos .conteiner .conteiner_agenda .bloco_de_imagem{
 				float: left;
-				margin: 0 0 0 10%;
-				background: black;
+				position: relative;
+				top: 6.5em;
+				left: 53%;
+				margin-top: -100px;
+				margin-left: -160px;
 			}
 			
-			@media all and (max-width: 930px) { 
-				.barra_conteudo_agenda_eventos_cursos .conteiner .conteiner_agenda .bloco_de_imagem{
-					margin: 0;
-					position: relative;
-					top: 6.5em;
-					left: 53%;
-					margin-top: -100px;
-					margin-left: -160px;	
-				}
-			}
-			
-				.barra_conteudo_agenda_eventos_cursos .conteiner .conteiner_agenda .bloco_de_imagem img{
+				.barra_conteudo_agenda_eventos .conteiner .conteiner_agenda .bloco_de_imagem img{
 					width: 100%;
 					height: 100%;
 				}
+				
+			.barra_conteudo_agenda_eventos .conteiner .conteiner_agenda .bloco_de_texto{
+				width: 100%;
+				float: left;
+				margin: 7.5em 0 0 0;
+			}
+			
+				.barra_conteudo_agenda_eventos .conteiner .conteiner_agenda .bloco_de_texto h3{
+					text-align: center;
+					font-family: Courier New, monospace;
+					color: #3f505d;
+				}
+				
+				@media all and (max-width: 500px) { 
+					.barra_conteudo_agenda_eventos .conteiner .conteiner_agenda .bloco_de_texto h3{
+						font-size: 1em;
+					}
+				}
+				
+				.barra_conteudo_agenda_eventos .conteiner .conteiner_agenda .bloco_de_texto p{
+					margin: 0.7em 0.8em 1.5em 0.8em;
+					text-align: center;
+					font-family: Courier New, monospace;
+					color: #3f505d;
+				}
+				
+				@media all and (max-width: 500px) { 
+					.barra_conteudo_agenda_eventos .conteiner .conteiner_agenda .bloco_de_texto p{
+						margin: 0.7em 0 1.5em 0;
+						font-size: 0.8em;
+					}
+				}
 		
-		.barra_conteudo_agenda_eventos_cursos .conteiner .conteiner_eventos{
+		.barra_conteudo_agenda_eventos .conteiner .conteiner_eventos{
 			width: 50%;
+			height: 22em;
 			float: right;
-			background: blue;
 		}
 		
 		@media all and (max-width: 930px) { 
-			.barra_conteudo_agenda_eventos_cursos .conteiner .conteiner_eventos{
+			.barra_conteudo_agenda_eventos .conteiner .conteiner_eventos{
 				width: 100%;
-				height: 13em;
 			}
 		}
 		
-			.barra_conteudo_agenda_eventos_cursos .conteiner .conteiner_eventos .bloco_de_imagem{
-				float: right;
-				margin: 0 10% 0 0;
-				background: black;
+			.barra_conteudo_agenda_eventos .conteiner .conteiner_eventos .bloco_de_imagem{
+				float: left;
+				position: relative;
+				top: 6.5em;
+				left: 53%;
+				margin-top: -100px;
+				margin-left: -160px;
 			}
 			
 			@media all and (max-width: 930px) { 
-				.barra_conteudo_agenda_eventos_cursos .conteiner .conteiner_eventos .bloco_de_imagem{
+				.barra_conteudo_agenda_eventos .conteiner .conteiner_eventos .bloco_de_imagem{
 					float: left;
 					margin: 0;
 					position: relative;
@@ -223,14 +279,126 @@ html,body{
 				}
 			}
 		
-				.barra_conteudo_agenda_eventos_cursos .conteiner .conteiner_eventos .bloco_de_imagem img{
+				.barra_conteudo_agenda_eventos .conteiner .conteiner_eventos .bloco_de_imagem img{
 					width: 100%;
 					height: 100%;
 				}
+				
+			.barra_conteudo_agenda_eventos .conteiner .conteiner_eventos .bloco_de_texto{
+				width: 100%;
+				float: left;
+				margin: 7.5em 0 0 0;
+			}
+			
+				.barra_conteudo_agenda_eventos .conteiner .conteiner_eventos .bloco_de_texto h3{
+					text-align: center;
+					font-family: Courier New, monospace;
+					color: #3f505d;
+				}
+				
+				@media all and (max-width: 500px) { 
+					.barra_conteudo_agenda_eventos .conteiner .conteiner_eventos .bloco_de_texto h3{
+						font-size: 1em;
+					}
+				}
+				
+				.barra_conteudo_agenda_eventos .conteiner .conteiner_eventos .bloco_de_texto p{
+					margin: 0.7em 0.8em 1.5em 0.8em;
+					text-align: center;
+					font-family: Courier New, monospace;
+					color: #3f505d;
+				}
+				
+				@media all and (max-width: 500px) { 
+					.barra_conteudo_agenda_eventos .conteiner .conteiner_agenda .bloco_de_texto p{
+						margin: 0.7em 0 1.5em 0;
+						font-size: 0.8em;
+					}
+				}
+	
+.barra_titulo_cursos{
+	width: 24em;
+	height: 6em;
+	float: left;
+	position: relative;
+	top: 3em;
+	left: 50%;
+	margin-top: -3em;
+	margin-left: -12em;	
+	background-color: #2d2d2d;
+	-moz-box-shadow: 0px -30px 20px #dce5e0;
+	-webkit-box-shadow: 0px -30px 20px #dce5e0;
+}	
+
+@media all and (max-width: 560px) { 
+	.barra_titulo_cursos{
+		width: 16em;
+		margin-left: -8em;	
+	}
+}
+
+	.barra_titulo_cursos h3{
+		margin: 1em 0 0 0;
+		text-align: center;
+		font-family: Courier New, monospace;
+		color: #dce5e0;
+	}
+	
+	@media all and (max-width: 560px) { 
+		.barra_titulo_cursos h3{
+			font-size: 1em;	
+		}
+	}
+	
+	
+.barra_conteudo_cursos{
+	width: 100%;
+	height: 20em;
+	float: left;
+	background-color: #2d2d2d;
+}
+
+
+.barra_titulo_livros_filmes{
+	width: 24em;
+	height: 6em;
+	float: left;
+	position: relative;
+	top: 0;
+	left: 50%;
+	margin-top: -3em;
+	margin-left: -12em;	
+	background-color: #dce5e0;
+	-moz-box-shadow: 0px -30px 20px #2d2d2d;
+	-webkit-box-shadow: 0px -30px 20px #2d2d2d;
+}	
+
+@media all and (max-width: 560px) { 
+	.barra_titulo_livros_filmes{
+		width: 16em;
+		margin-left: -8em;	
+	}
+}
+
+	.barra_titulo_livros_filmes h3{
+		margin: 1em 0 0 0;
+		text-align: center;
+		font-family: Courier New, monospace;
+		color: #3f505d;
+	}
+	
+	@media all and (max-width: 560px) { 
+		.barra_titulo_livros_filmes h3{
+			font-size: 1em;	
+		}
+	}	
+		
 	
 .barra_conteudo_livros_filmes{
 	width: 100%;
-	margin: 3em 0 3em 0;
+	float: left;
+	margin: 3em 0 0 0;
+	padding: 0 0 0 0;
 }
 
 	.barra_conteudo_livros_filmes .conteiner_importancia_leitura{
@@ -309,7 +477,7 @@ html,body{
 				float: left;
 				position: relative;
 				top: 6em;
-				left: 50%;
+				left: 53%;
 				margin-top: -100px;
 				margin-left: -160px;	
 			}
@@ -344,7 +512,7 @@ html,body{
 			float: left;
 			position: relative;
 			top: 6em;
-			left: 50%;
+			left: 53%;
 			margin-top: -100px;
 			margin-left: -160px;	
 		}
@@ -407,8 +575,7 @@ html,body{
 			}
 		}
 	
-	
-	
+
 	
 	
 	

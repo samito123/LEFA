@@ -41,43 +41,66 @@ pageEncoding="UTF-8"%>
 			<div class="conteiner_banner">
 				<div class="fotorama" data-width="100%" data-height="370" 
 				data-fit="cover" data-autoplay="3000" data-nav="false">
-					<img src="imagens/banner/mimimi.png" data-caption="{{lf.aaa}}">
-					<img src="imagens/banner/03.png" data-caption="Reunião dos trabalhadores - 20/01/2017">
-					<img src="imagens/banner/02.png" data-caption="Reunião dos trabalhadores - 25/01/2017">
+					<img src="imagens/banner/010.png" data-caption="{{lf.mensagem1}}">
+					<img src="imagens/banner/011.png" data-caption="{{lf.mensagem2}}">
+					<img src="imagens/banner/012.png" data-caption="{{lf.mensagem3}}">
 				</div>
 		 	</div>
 		 	
-		 	<div class="barra_conteudo_agenda_eventos_cursos">
+		 	<div class="barra_titulo_agenda_eventos">
+				<h3>Agenda e eventos</h3>
+			</div>
+		 	
+		 	<div class="barra_conteudo_agenda_eventos">
 				<div class="conteiner">
 					<div class="conteiner_agenda">
 						<div class="bloco_de_imagem">
-							<div class="view view-first">  	   	
-							    <img src="imagens/banner/leitura.png" />  
+							<div class="view view-third">  	   	
+							    <img src="imagens/banner/agenda.png" />  
 							    <div class="mask">  
-								    <h2>Cultura</h2>  
-								    <p>A importância de Ler</p>  
-							        <a href="#" class="info">Sugestões de livros</a>  
+								    <h2>Agenda</h2>  
+								    <p>Programação LEFA</p>  
+							        <a href="#" class="info">Saiba Mais</a>  
 							    </div>  			     
 							</div>  
 						</div>	
+						<div class="bloco_de_texto">
+							<h3>Agenda</h3>
+							<p>
+								Fique por dentro da nossa programação, 
+								calendário com todos os compromissos do LEFA.
+							</p>
+						</div>
 					</div>
 					
 					<div class="conteiner_eventos">
 						<div class="bloco_de_imagem">
-							<div class="view view-first">  	   	
-							    <img src="imagens/banner/nossolar.png" />  
+							<div class="view view-third">  	   	
+							    <img src="imagens/banner/eventos.png" />  
 							    <div class="mask">  
-								    <h2>Cultura</h2>  
-								    <p>A importância de Ler</p>  
-							        <a href="#" class="info">Sugestões de livros</a>  
+								    <h2>Eventos</h2>  
+								    <p>Como foram os eventos do LEFA</p>  
+							        <a href="#" class="info">Saiba Mais</a>  
 							    </div>  			     
 							</div>  
 						</div>
-					</div>
-					
+						<div class="bloco_de_texto">
+							<h3>Eventos</h3>
+							<p>
+								Tudo que aconteceu nos eventos do LEFA 
+								você pode ver aqui.
+							</p>
+						</div>
+					</div>	
 				</div>
 				
+				<div class="barra_titulo_cursos">
+					<h3>Nossos cursos de capacitação</h3>
+				</div>
 				
+				<div class="barra_conteudo_cursos">
+				
+				</div>
 				
 				<!--<div class="calendar" data-color="normal">
 					<div data-role="day" data-day="201721">
@@ -86,6 +109,10 @@ pageEncoding="UTF-8"%>
 					</div>
 				</div>-->
 	 		</div>
+	 		
+	 		<div class="barra_titulo_livros_filmes">
+				<h3>Livros e filmes</h3>
+			</div>
 	 		
 		 	<div class="barra_conteudo_livros_filmes">
 		 		<div class="conteiner_importancia_leitura">
@@ -322,7 +349,12 @@ pageEncoding="UTF-8"%>
 			var acess = this;		
 			acess.nome_instituicao = "LEFA";
 			acess.descricao_instituicao = "Lar Espirita Francisco Alcyone";
-			acess.aaa = "Projeto Social - 20/01/2017";
+			acess.mensagem1 = "Levante todos aqueles que estiverem caídos em seu redor. "+
+				"Você não sabe onde seus pés tropeçarão - André Luiz";
+			acess.mensagem2 = "Existência é a soma de tudo o que fizemos de nós até hoje - "+
+				"André Luiz/Chico Xavier";
+			acess.mensagem3 = "A verdadeira caridade é sempre boa e benevolente, ela está "+
+				"mais no gesto que no fato - Livro dos espíritos";
 			
 		}]);
 	</script>

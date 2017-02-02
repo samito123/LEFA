@@ -25,9 +25,9 @@ html,body{
 }
 
 	.conteiner_menu .menu{
-		width: 75.5%;
+		width: 76%;
 		height: auto;
-		margin: 0 12.5% 0 12%;
+		margin: 0 12% 0 12%;
 	}
 	
 	@media all and (max-width: 700px) { 
@@ -117,9 +117,9 @@ html,body{
 
 
 .conteiner_banner{
-	width: 75%;
+	width: 76%;
 	position: absolute;
-	margin: 1% 13% 1% 12%;
+	margin: 1% 12% 1% 12%;
 	top: 4.3em;
 	border: solid #dcd2be;
 	border-radius: 4px;
@@ -127,8 +127,8 @@ html,body{
 
 @media all and (max-width: 700px) { 
 	.conteiner_banner{
-		width: 90%;
-		margin: 1% 6% 1% 4%;
+		width: 90.5%;
+		margin: 1% 5% 1% 5%;
 		top: 6em;
 	}
 }
@@ -149,13 +149,13 @@ html,body{
 
 	@media all and (max-width: 560px) { 
 		.barra_titulo_agenda_eventos{
-			width: 16em;
-			margin-left: -8em;	
+			width: 14em;
+			margin-left: -7em;	
 		}
 	}
 
 	.barra_titulo_agenda_eventos h3{
-		margin: 1em 0 0 0;
+		margin: 1em 0.5em 0 0.5em;
 		text-align: center;
 		font-family: Courier New, monospace;
 		color: #3f505d;
@@ -171,26 +171,32 @@ html,body{
 .barra_conteudo_agenda_eventos{
 	width: 100%;
 	float: left;
-	margin: 3em 0 0 0;
-	padding: 2em 0 0 0;
+	margin: 2em 0 3em 0;
+}
+
+@media all and (max-width: 560px) { 
+	.barra_conteudo_agenda_eventos{
+		margin: 0;
+	}
 }
 	
 	.barra_conteudo_agenda_eventos .conteiner{
-		width: 75%;
+		width: 76%;
 		float: left;
-		margin: 0 12.5% 0 12.5%;
+		margin: 0 12% 0 12%;
+		padding: 1em 0 4em 0;
 	}
 	
 	@media all and (max-width: 930px) { 
 		.barra_conteudo_agenda_eventos .conteiner{
 			width: 100%;
 			margin: 0;
+			padding: 1em 0 2em 0;
 		}
 	}
 
 		.barra_conteudo_agenda_eventos .conteiner .conteiner_agenda{
 			width: 50%;
-			height: 22em;
 			float: left;
 		}
 		
@@ -204,9 +210,16 @@ html,body{
 				float: left;
 				position: relative;
 				top: 6.5em;
-				left: 53%;
+				left: 50%;
 				margin-top: -100px;
-				margin-left: -160px;
+				margin-left: -150px;
+			}
+			
+			@media all and (max-width: 340px) { 
+				.barra_conteudo_agenda_eventos .conteiner .conteiner_agenda .bloco_de_imagem{
+					margin-top: -90px;
+					margin-left: -130px;
+				}
 			}
 			
 				.barra_conteudo_agenda_eventos .conteiner .conteiner_agenda .bloco_de_imagem img{
@@ -221,6 +234,7 @@ html,body{
 			}
 			
 				.barra_conteudo_agenda_eventos .conteiner .conteiner_agenda .bloco_de_texto h3{
+					margin: 0 0.5em 0 0.5em;
 					text-align: center;
 					font-family: Courier New, monospace;
 					color: #3f505d;
@@ -233,7 +247,7 @@ html,body{
 				}
 				
 				.barra_conteudo_agenda_eventos .conteiner .conteiner_agenda .bloco_de_texto p{
-					margin: 0.7em 0.8em 1.5em 0.8em;
+					margin: 0.7em 0.5em 1em 0.5em;
 					text-align: center;
 					font-family: Courier New, monospace;
 					color: #3f505d;
@@ -241,20 +255,19 @@ html,body{
 				
 				@media all and (max-width: 500px) { 
 					.barra_conteudo_agenda_eventos .conteiner .conteiner_agenda .bloco_de_texto p{
-						margin: 0.7em 0 1.5em 0;
 						font-size: 0.8em;
 					}
 				}
 		
 		.barra_conteudo_agenda_eventos .conteiner .conteiner_eventos{
 			width: 50%;
-			height: 22em;
 			float: right;
 		}
 		
 		@media all and (max-width: 930px) { 
 			.barra_conteudo_agenda_eventos .conteiner .conteiner_eventos{
 				width: 100%;
+				float: left;
 			}
 		}
 		
@@ -262,20 +275,15 @@ html,body{
 				float: left;
 				position: relative;
 				top: 6.5em;
-				left: 53%;
+				left: 50%;
 				margin-top: -100px;
-				margin-left: -160px;
+				margin-left: -150px;
 			}
 			
-			@media all and (max-width: 930px) { 
+			@media all and (max-width: 340px) { 
 				.barra_conteudo_agenda_eventos .conteiner .conteiner_eventos .bloco_de_imagem{
-					float: left;
-					margin: 0;
-					position: relative;
-					top: 6.5em;
-					left: 53%;
-					margin-top: -100px;
-					margin-left: -160px;	
+					margin-top: -90px;
+					margin-left: -130px;
 				}
 			}
 		
@@ -291,6 +299,7 @@ html,body{
 			}
 			
 				.barra_conteudo_agenda_eventos .conteiner .conteiner_eventos .bloco_de_texto h3{
+					margin: 0 0.5em 0 0.5em;
 					text-align: center;
 					font-family: Courier New, monospace;
 					color: #3f505d;
@@ -303,15 +312,14 @@ html,body{
 				}
 				
 				.barra_conteudo_agenda_eventos .conteiner .conteiner_eventos .bloco_de_texto p{
-					margin: 0.7em 0.8em 1.5em 0.8em;
+					margin: 0.7em 0.5em 1em 0.5em;
 					text-align: center;
 					font-family: Courier New, monospace;
 					color: #3f505d;
 				}
 				
 				@media all and (max-width: 500px) { 
-					.barra_conteudo_agenda_eventos .conteiner .conteiner_agenda .bloco_de_texto p{
-						margin: 0.7em 0 1.5em 0;
+					.barra_conteudo_agenda_eventos .conteiner .conteiner_eventos .bloco_de_texto p{
 						font-size: 0.8em;
 					}
 				}
@@ -325,20 +333,20 @@ html,body{
 	left: 50%;
 	margin-top: -3em;
 	margin-left: -12em;	
-	background-color: #2d2d2d;
+	background-color: #798ba0;
 	-moz-box-shadow: 0px -30px 20px #dce5e0;
 	-webkit-box-shadow: 0px -30px 20px #dce5e0;
 }	
 
 @media all and (max-width: 560px) { 
 	.barra_titulo_cursos{
-		width: 16em;
-		margin-left: -8em;	
+		width: 14em;
+		margin-left: -7em;		
 	}
 }
 
 	.barra_titulo_cursos h3{
-		margin: 1em 0 0 0;
+		margin: 1em 0.5em 0 0.5em;
 		text-align: center;
 		font-family: Courier New, monospace;
 		color: #dce5e0;
@@ -353,24 +361,156 @@ html,body{
 	
 .barra_conteudo_cursos{
 	width: 100%;
-	height: 20em;
 	float: left;
-	background-color: #2d2d2d;
+	background-color: #798ba0;
 }
 
+	.barra_conteudo_cursos .conteiner{
+		width: 75%;
+		margin: 0 12% 0 12%;
+		padding: 1em 0 6em 0; 
+	} 
+	
+	@media all and (max-width: 930px) { 
+		.barra_conteudo_cursos .conteiner {
+			width: 100%;	
+			margin: 0;
+		}
+	}
+
+		.barra_conteudo_cursos .conteiner .bloco_de_texto_top{
+			width: 100%;
+			float: left;
+			margin: 3.5em 0 0 0;
+			
+		}
+	
+			.barra_conteudo_cursos .conteiner .bloco_de_texto_top h3{
+				margin: 0 0.5em 0 0.5em;
+				text-align: center;
+				font-family: Courier New, monospace;
+				color: #dce5e0;
+			}
+			
+			@media all and (max-width: 560px) { 
+				.barra_conteudo_cursos .conteiner .bloco_de_texto_top h3{
+					font-size: 1em;	
+				}
+			}
+			
+			.barra_conteudo_cursos .conteiner .bloco_de_texto_top p{
+				margin: 0.7em 0.5em 0.8em 0.5em;
+				text-align: center;
+				font-family: Courier New, monospace;
+				color: #dce5e0;
+			}
+			
+			@media all and (max-width: 560px) { 
+				.barra_conteudo_cursos .conteiner .bloco_de_texto_top p{
+					font-size: 0.8em;	
+				}
+			}
+		
+		.barra_conteudo_cursos .conteiner .bloco_de_imagem{
+			float: left;
+			position: relative;
+			top: 7.5em;
+			left: 50%;
+			margin-top: -100px;
+			margin-left: -150px;
+		}
+		
+		@media all and (max-width: 340px) { 
+			.barra_conteudo_cursos .conteiner .bloco_de_imagem{
+				margin-top: -90px;
+				margin-left: -130px;
+			}
+		}
+	
+			.barra_conteudo_cursos .conteiner .bloco_de_imagem img{
+				width: 100%;
+				height: 100%;
+			}
+		
+		.barra_conteudo_cursos .conteiner .bloco_de_texto_bottom{
+			width: 100%;
+			float: left;
+			margin: 9em 0 0 0;
+		}
+		
+			.barra_conteudo_cursos .conteiner .bloco_de_texto_bottom p{
+				margin: 0.7em 0.5em 0.5em 0.5em;
+				text-align: center;
+				font-family: Courier New, monospace;
+				color: #dce5e0;
+			}
+			
+			@media all and (max-width: 560px) { 
+				.barra_conteudo_cursos .conteiner .bloco_de_texto_bottom p{
+					font-size: 0.8em;	
+				}
+			}
+
+.barra_titulo_trabalhadores{
+	width: 24em;
+	height: 6em;
+	float: left;
+	position: relative;
+	top: 0em;
+	left: 50%;
+	margin-top: -3em;
+	margin-left: -12em;	
+	background-color: #dce5e0;
+	-moz-box-shadow: 0px -30px 20px #798ba0;
+	-webkit-box-shadow: 0px -30px 20px #798ba0;
+}	
+
+@media all and (max-width: 560px) { 
+	.barra_titulo_trabalhadores{
+		width: 14em;
+		margin-left: -7em;	
+	}
+}
+
+	.barra_titulo_trabalhadores h3{
+		margin: 1em 0.5em 0 0.5em;
+		text-align: center;
+		font-family: Courier New, monospace;
+		color: #3f505d;
+	}
+	
+	@media all and (max-width: 560px) { 
+		.barra_titulo_trabalhadores h3{
+			font-size: 1em;	
+		}
+	}
+	
+.barra_conteudo_trabalhadores{
+	width: 100%;
+	float: left;
+}	
+
+	.barra_conteudo_trabalhadores .conteiner{
+		width: 76%;
+		float: left;
+		margin: 0 12% 0 12% 
+	}	
+	
+	
+	
 
 .barra_titulo_livros_filmes{
 	width: 24em;
 	height: 6em;
 	float: left;
 	position: relative;
-	top: 0;
+	top: -3em;
 	left: 50%;
 	margin-top: -3em;
 	margin-left: -12em;	
-	background-color: #dce5e0;
-	-moz-box-shadow: 0px -30px 20px #2d2d2d;
-	-webkit-box-shadow: 0px -30px 20px #2d2d2d;
+	background-color: black;
+	-moz-box-shadow: 0px -30px 20px #798ba0;
+	-webkit-box-shadow: 0px -30px 20px #798ba0;
 }	
 
 @media all and (max-width: 560px) { 
@@ -397,14 +537,14 @@ html,body{
 .barra_conteudo_livros_filmes{
 	width: 100%;
 	float: left;
-	margin: 3em 0 0 0;
-	padding: 0 0 0 0;
+	margin: 0 0 3em 0;
+	background-color: black;
 }
 
 	.barra_conteudo_livros_filmes .conteiner_importancia_leitura{
-		width: 75%;
+		width: 76%;
 		float: left;
-		margin: 0 12.5% 0 12.5%;
+		margin: 0 12% 0 12%;
 	}
 	
 	@media all and (max-width: 1140px) { 
@@ -477,9 +617,9 @@ html,body{
 				float: left;
 				position: relative;
 				top: 6em;
-				left: 53%;
+				left: 50%;
 				margin-top: -100px;
-				margin-left: -160px;	
+				margin-left: -150px;	
 			}
 		}
 	
@@ -490,9 +630,9 @@ html,body{
 		
 	
 	.barra_conteudo_livros_filmes .conteiner_importancia_filmes{
-		width: 75%;
+		width: 76%;
 		float: left;
-		margin: 1em 12.5% 0 12.5%;
+		margin: 1em 12% 0 12%;
 	}
 	
 	@media all and (max-width: 1140px) { 
@@ -512,9 +652,9 @@ html,body{
 			float: left;
 			position: relative;
 			top: 6em;
-			left: 53%;
+			left: 50%;
 			margin-top: -100px;
-			margin-left: -160px;	
+			margin-left: -150px;	
 		}
 	}
 

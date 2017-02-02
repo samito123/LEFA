@@ -41,22 +41,27 @@ pageEncoding="UTF-8"%>
 			<div class="conteiner_banner">
 				<div class="fotorama" data-width="100%" data-height="370" 
 				data-fit="cover" data-autoplay="3000" data-nav="false">
-					<img src="imagens/banner/010.png" data-caption="{{lf.mensagem1}}">
-					<img src="imagens/banner/011.png" data-caption="{{lf.mensagem2}}">
-					<img src="imagens/banner/012.png" data-caption="{{lf.mensagem3}}">
+					<img src="imagens/banner/01.png" data-caption="{{lf.mensagem1}}">
+					<img src="imagens/banner/02.png" data-caption="{{lf.mensagem2}}">
+					<img src="imagens/banner/03.png" data-caption="{{lf.mensagem3}}">
+					<img src="imagens/banner/04.png" data-caption="{{lf.mensagem4}}">
+					<img src="imagens/banner/05.png" data-caption="{{lf.mensagem5}}">
+					<img src="imagens/banner/06.png" data-caption="{{lf.mensagem6}}">
+					<img src="imagens/banner/07.png" data-caption="{{lf.mensagem7}}">
+					<img src="imagens/banner/08.png" data-caption="{{lf.mensagem8}}">
 				</div>
 		 	</div>
-		 	
+		 
 		 	<div class="barra_titulo_agenda_eventos">
-				<h3>Agenda e eventos</h3>
+				<h3>Fique por dentro da nossa programação</h3>
 			</div>
-		 	
+		 		
 		 	<div class="barra_conteudo_agenda_eventos">
 				<div class="conteiner">
 					<div class="conteiner_agenda">
 						<div class="bloco_de_imagem">
-							<div class="view view-third">  	   	
-							    <img src="imagens/banner/agenda.png" />  
+							<div class="view view-first">  	   	
+							    <img src="imagens/sessao/agenda.png" />  
 							    <div class="mask">  
 								    <h2>Agenda</h2>  
 								    <p>Programação LEFA</p>  
@@ -67,16 +72,15 @@ pageEncoding="UTF-8"%>
 						<div class="bloco_de_texto">
 							<h3>Agenda</h3>
 							<p>
-								Fique por dentro da nossa programação, 
-								calendário com todos os compromissos do LEFA.
+								Calendário com todos os compromissos agendados do LEFA.
 							</p>
 						</div>
 					</div>
 					
 					<div class="conteiner_eventos">
 						<div class="bloco_de_imagem">
-							<div class="view view-third">  	   	
-							    <img src="imagens/banner/eventos.png" />  
+							<div class="view view-first">  	   	
+							    <img src="imagens/sessao/eventos.png" />  
 							    <div class="mask">  
 								    <h2>Eventos</h2>  
 								    <p>Como foram os eventos do LEFA</p>  
@@ -95,13 +99,51 @@ pageEncoding="UTF-8"%>
 				</div>
 				
 				<div class="barra_titulo_cursos">
-					<h3>Nossos cursos de capacitação</h3>
+					<h3>Trabalhando com pessoas</h3>
 				</div>
 				
 				<div class="barra_conteudo_cursos">
-				
+					<div class="conteiner">
+						<div class="bloco_de_texto_top">
+							<h3>Cursos de capacitação e inclusão social</h3>
+							<p>
+								Tem como objetivo combater a exclusão aos benefícios da vida em sociedade, 
+								provocada pelas diferenças de classe social, educação, idade, deficiência, 
+								gênero, preconceito social ou preconceitos raciais, oferecendo oportunidades 
+								iguais de acesso a bens e serviços a todos.
+							</p>
+						</div>
+						<div class="bloco_de_imagem">
+							<div class="view view-first">  	   	
+							    <img src="imagens/sessao/cursos.png" />  
+							    <div class="mask">  
+								    <h2>Nossos cusos</h2>  
+								    <p>Capacitando pessoas</p>  
+							        <a href="#" class="info">Saiba Mais</a>  
+							    </div>  			     
+							</div>  
+						</div>
+						<div class="bloco_de_texto_bottom">
+							<p>
+								"Enfrentar preconceitos é o preço que se paga por ser diferente"
+							</p>
+							<p>
+								Luiz Gasparetto
+							</p>
+						</div>
+					</div>
 				</div>
 				
+				<div class="barra_titulo_trabalhadores">
+					<h3>Voluntários</h3>
+				</div>
+				<div class="barra_conteudo_trabalhadores">
+					<div class="conteiner">
+						
+						
+					</div>
+				</div>
+				 
 				<!--<div class="calendar" data-color="normal">
 					<div data-role="day" data-day="201721">
 						<div data-role="event" data-name="This is an event" data-start="9.00" data-end="9.30" data-location="The Web"></div>
@@ -109,7 +151,7 @@ pageEncoding="UTF-8"%>
 					</div>
 				</div>-->
 	 		</div>
-	 		
+	 		<!--
 	 		<div class="barra_titulo_livros_filmes">
 				<h3>Livros e filmes</h3>
 			</div>
@@ -131,7 +173,7 @@ pageEncoding="UTF-8"%>
 		 			</div>
 		 			<div class="bloco_de_imagem">
 		 				<div class="view view-first">  	   	
-						    <img src="imagens/banner/leitura.png" />  
+						    <img src="imagens/sessao/leitura.png" />  
 						    <div class="mask">  
 							    <h2>Cultura</h2>  
 							    <p>A importância de Ler</p>  
@@ -144,7 +186,7 @@ pageEncoding="UTF-8"%>
 			 	<div class="conteiner_importancia_filmes">
 		 			<div class="bloco_de_imagem">
 		 				<div class="view view-first">  	   	
-						    <img src="imagens/banner/filme.png" />  
+						    <img src="imagens/sessao/filme.png" />  
 						    <div class="mask">  
 							    <h2>Cultura</h2>  
 							    <p>A importância dos filmes</p>  
@@ -168,7 +210,7 @@ pageEncoding="UTF-8"%>
 		 			</div>
 		 		</div>	
 	 		</div>
-	 		
+	 		  -->
 		 		<!--<div class="conteiner_importancia_leitura">
 			 		<div class="bloco_de_texto">
 			 			<h3>A Importância da Leitura</h3>
@@ -317,8 +359,8 @@ pageEncoding="UTF-8"%>
 
 <!-- ANGULAR JS -->
 	<script type="text/javascript">
-		
-		var calendarArray =[];
+
+		/*var calendarArray =[];
 		var monthOffset = [0,1,2,3,4,5,6,7,8,9,10,11];
 		var monthArray = [["JAN","Janeiro"],["FEV","Fevereiro"],["MAR","Março"],["ABR","Abril"],["MAI","Maio"],
 		                  ["JUN","Junho"],["JUL","Julho"],["AGO","Agosto"],["SET","Setembro"],["OUT","Outubro"],
@@ -341,7 +383,7 @@ pageEncoding="UTF-8"%>
 			//});
 		calendarSet();
 		calendarScale();
-		});
+		});*/
 		
 		var app = angular.module('LefaApp',[] );
 		app.controller('LEFA', ['$http',function($http){
@@ -355,6 +397,16 @@ pageEncoding="UTF-8"%>
 				"André Luiz/Chico Xavier";
 			acess.mensagem3 = "A verdadeira caridade é sempre boa e benevolente, ela está "+
 				"mais no gesto que no fato - Livro dos espíritos";
+			acess.mensagem4 = "Não deixem que os seus medos tomem o lugar dos seus sonhos "+
+				"- Walt Disney";
+			acess.mensagem5 = "Cada boa ação que você pratica é uma luz que você acende em "+
+				"torno dos seus própios passos - Chico Xavier";
+			acess.mensagem6 = "Em qualquer setor da existência, daquilo que se planta é que "+
+				"será justo colher - Emmanuel";
+			acess.mensagem7 = "A neve e a tempestade matam as flores, mas nada podem "+
+				"contra as sementes - Khalil Gribran";
+			acess.mensagem8 = "Você é livre para fazer suas escolhas, mas é prisioneiro "+
+				"das suas consequências - Pablo Neruda";
 			
 		}]);
 	</script>

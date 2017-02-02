@@ -16,21 +16,21 @@
 <!-- Fim Jquery -->
 
 <!-- Angularjs -->
-	<!-- JS  -->
+	<!-- JS -->
 		<script type="text/javascript" src="javascript/angular/angular.min.js" charset="UTF-8"></script>
 <!-- Fim Angularjs -->
 
 <!-- Modernize -->
 	<!-- CSS Custom-->
 		<link href="css/modernizr/modernizr.css" rel="stylesheet" type="text/css" charset="UTF-8">
-	<!-- JS  -->
+	<!-- JS -->
 		<script type="text/javascript" src="javascript/modernizr/modernizr.custom.js" charset="UTF-8"></script>
 <!-- Fim Modernize -->
 
 <!-- Fotorama-->
 	<!-- CSS Custom-->
 		<link href="css/fotorama/fotorama.css" rel="stylesheet" type="text/css" charset="UTF-8">
-	<!-- JS  -->
+	<!-- JS -->
 		<script src="javascript/fotorama/fotorama.js"></script>
 <!-- Fim Fotorama-->
 
@@ -39,12 +39,13 @@
 		<link href="css/style_hover/style_hover_img.css" rel="stylesheet" type="text/css" charset="UTF-8">
 <!-- Fim Hover Img-->
 
-<!-- Twenty Img-->
+<!-- Twenty -->
 	<!-- CSS Custom-->
 		<link href="css/calendario/calendar.min.css" rel="stylesheet" type="text/css" charset="UTF-8">
-	<!-- JS  -->
+	<!-- JS -->
 		<script src="javascript/calendario/calendar.min.js"></script>
-<!-- Fim Twenty Img-->
+<!-- Fim Twenty -->
+
 
 
 

@@ -143,8 +143,8 @@ html,body{
 	margin-top: -3em;
 	margin-left: -12em;	
 	background-color: #dce5e0;
-	-moz-box-shadow: 0px -30px 20px #2d2d2d;
-	-webkit-box-shadow: 0px -30px 20px #2d2d2d;
+	-moz-box-shadow: 36px 4px 20px -35px #2d2d2d, -36px 4px 20px -35px #2d2d2d;
+	-webkit-box-shadow: 36px 4px 20px -35px #2d2d2d, -36px 4px 20px -35px #2d2d2d;
 }	
 
 	@media all and (max-width: 560px) { 
@@ -334,8 +334,8 @@ html,body{
 	margin-top: -3em;
 	margin-left: -12em;	
 	background-color: #798ba0;
-	-moz-box-shadow: 0px -30px 20px #dce5e0;
-	-webkit-box-shadow: 0px -30px 20px #dce5e0;
+	-moz-box-shadow: 36px 4px 20px -35px #2d2d2d, -36px 4px 20px -35px #2d2d2d;
+	-webkit-box-shadow: 36px 4px 20px -35px #2d2d2d, -36px 4px 20px -35px #2d2d2d;
 }	
 
 @media all and (max-width: 560px) { 
@@ -461,8 +461,8 @@ html,body{
 	margin-top: -3em;
 	margin-left: -12em;	
 	background-color: #dce5e0;
-	-moz-box-shadow: 0px -30px 20px #798ba0;
-	-webkit-box-shadow: 0px -30px 20px #798ba0;
+	-moz-box-shadow: 36px 4px 20px -35px #2d2d2d, -36px 4px 20px -35px #2d2d2d;
+	-webkit-box-shadow: 36px 4px 20px -35px #2d2d2d, -36px 4px 20px -35px #2d2d2d;
 }	
 
 @media all and (max-width: 560px) { 
@@ -493,11 +493,122 @@ html,body{
 	.barra_conteudo_trabalhadores .conteiner{
 		width: 76%;
 		float: left;
-		margin: 0 12% 0 12% 
+		margin: 0 12% 0 12%;
+		padding: 1em 0 1em 0;
 	}	
 	
-	
-	
+	@media all and (max-width: 930px) { 
+		.barra_conteudo_trabalhadores .conteiner {
+			width: 100%;	
+			margin: 0;
+		}
+	}
+		 
+		.barra_conteudo_trabalhadores .conteiner .borda_parallax {
+			float: left;
+			margin: 1.5em 0 0 0;
+			border: solid #718087;
+		}
+		
+		@media all and (max-width: 930px) { 
+			.barra_conteudo_trabalhadores .conteiner .borda_parallax{
+				width: 90%;
+				margin: 0 5% 0 5%;
+			}
+		}
+		 
+			.barra_conteudo_trabalhadores .conteiner .bloco_de_parallax {
+			    min-height: 25em;
+			    float: left;
+			    background: transparent;
+			}
+			
+				.barra_conteudo_trabalhadores .conteiner .bloco_de_parallax .bloco_de_texto{
+				   text-decoration: none;
+				   color: transparent;
+				}
+				
+				.barra_conteudo_trabalhadores .conteiner .bloco_de_parallax .bloco_de_texto.info{
+					text-shadow: 0 0 10px white;
+					-webkit-transition: 1s ease-in;
+					-moz-transition: 1s ease-in;
+					-o-transition: 1s ease-in;
+					transition: 1s ease-in;
+				}
+				
+				.barra_conteudo_trabalhadores .conteiner .bloco_de_parallax .bloco_de_texto:hover{
+				    color: white;
+				}
+			
+				.barra_conteudo_trabalhadores .conteiner .bloco_de_parallax h3{
+				    margin: 1em 0.5em 2em 0.5em;
+				    text-align: center;
+				    font-family: Courier New, monospace;
+				    cursor: pointer;
+				    text-shadow: 0 0 10px white;
+					-webkit-transition: 1s ease-in;
+					-moz-transition: 1s ease-in;
+					-o-transition: 1s ease-in;
+					transition: 1s ease-in;
+				}
+				
+				@media all and (max-width: 560px) { 
+					.barra_conteudo_trabalhadores .conteiner .bloco_de_parallax h3{
+						font-size: 1em;
+					}
+				}
+				
+				.barra_conteudo_trabalhadores .conteiner .bloco_de_parallax p{
+				    margin: 0 0.5em 2em 0.5em;
+				    text-align: center;
+				    font-family: Courier New, monospace;
+				    text-shadow: 0 0 5px white;
+					-webkit-transition: 1s ease-in;
+					-moz-transition: 1s ease-in;
+					-o-transition: 1s ease-in;
+					transition: 1s ease-in;
+				}
+				
+				@media all and (max-width: 560px) { 
+					.barra_conteudo_trabalhadores .conteiner .bloco_de_parallax p{
+						width: 90%;
+						margin: 0 5% 1.5em 5%;
+						font-size: 0.8em;
+					}
+				}
+				
+				.barra_conteudo_trabalhadores .conteiner .link_voluntarios{
+				    width:100%;
+				    float: left;
+				    margin: 1em 0 0 0;
+				    padding: 3em 0 0 0;
+				    text-align: center;
+				}
+				
+				@media all and (max-width: 560px) { 
+					.barra_conteudo_trabalhadores .conteiner .link_voluntarios{
+						font-size: 0.8em;				
+					}
+				}
+				
+				.barra_conteudo_trabalhadores .conteiner .link_voluntarios a{
+				    text-decoration: none; 
+				    font-family: Courier New, monospace;
+				    color: #3f505d;
+				}
+				
+				.barra_conteudo_trabalhadores .conteiner .link_voluntarios a:hover {
+					color: #2d2d2d;
+				}
+				
+				@media all and (max-width: 560px) { 
+					.barra_conteudo_trabalhadores .conteiner .link_voluntarios a h3{
+						font-size: 1em;				
+					}
+				}
+				
+				
+
 
 .barra_titulo_livros_filmes{
 	width: 24em;
@@ -509,8 +620,8 @@ html,body{
 	margin-top: -3em;
 	margin-left: -12em;	
 	background-color: black;
-	-moz-box-shadow: 0px -30px 20px #798ba0;
-	-webkit-box-shadow: 0px -30px 20px #798ba0;
+	-moz-box-shadow: 36px 4px 20px -35px #2d2d2d, -36px 4px 20px -35px #2d2d2d;
+	-webkit-box-shadow: 36px 4px 20px -35px #2d2d2d, -36px 4px 20px -35px #2d2d2d;
 }	
 
 @media all and (max-width: 560px) { 
@@ -852,8 +963,4 @@ html,body{
 			font-family: Courier New, monospace;
 			color: #3f505d;
 		}*/
-
-
-
-
 

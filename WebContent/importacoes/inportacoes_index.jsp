@@ -47,7 +47,7 @@
 <!-- Fim Twenty -->
 
 
-
+<script src="javascript/parallax/parallax.min.js"></script>
 
 
 

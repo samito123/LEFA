@@ -99,8 +99,9 @@ pageEncoding="UTF-8"%>
 				</div>
 				
 				<div class="barra_titulo_cursos">
-					<h3>Trabalhando com pessoas</h3>
+					<h3>Trabalhando com pessoas</h3>				
 				</div>
+				
 				
 				<div class="barra_conteudo_cursos">
 					<div class="conteiner">
@@ -135,27 +136,61 @@ pageEncoding="UTF-8"%>
 				</div>
 				
 				<div class="barra_titulo_trabalhadores">
-					<h3>Voluntários</h3>
+					<h3>Trabalhadores do LEFA</h3>
 				</div>
 				<div class="barra_conteudo_trabalhadores">
 					<div class="conteiner">
-						
-						
+						<div class="borda_parallax">									
+							<div class="bloco_de_parallax" data-parallax="scroll" data-image-src="imagens/banner/texte1.png">		
+								<div class="bloco_de_texto">
+									<h3>
+										Voluntários
+									</h3>
+									<p>
+										Estamos vivendo em uma sociedade discrepante no que tange a situação econômica, 
+										uns tem muito e muitos tem quase nada...
+									</p>
+									<p>
+										Dentro desse quadro de faltas, surge a ideia do trabalho voluntário, onde eu 
+										que tenho um pouquinho mais dou aquele que	tem um pouquinho menos, faço a diferença 
+										e ajudo a diminuir as dificuldades sociais...
+									</p>	
+									<p>
+										Os voluntários não doam somente o seu tempo e sua generosidade, 
+										mas respondem a um impulso humano fundamental...
+									</p>
+									<p>
+										A vontade de colaborar, de ajudar, de dividir alegrias, aliviar sofrimentos 
+										e de melhorar a qualidade da vida em comum... 
+									</p>
+									<p>
+										Solidariedade, responsabilidade	e compaixão são sentimentos essencialmente
+										 humanos e virtudes cívicas...
+									</p>	
+								</div>											
+							</div>
+						</div>
+						<div class="link_voluntarios">
+							<a href="#">
+								<h3>
+									Click aqui e saiba mais sobre cada um dos nossos voluntários
+								</h3>
+							</a>
+						</div>							
 					</div>
 				</div>
-				 
-				<!--<div class="calendar" data-color="normal">
+	 		</div>
+	 		
+	 		<!--<div class="calendar" data-color="normal">
 					<div data-role="day" data-day="201721">
 						<div data-role="event" data-name="This is an event" data-start="9.00" data-end="9.30" data-location="The Web"></div>
 						<div data-role="event" data-name="This is also an event" data-start="10.00" data-end="11.00" data-location="At Home"></div>
 					</div>
 				</div>-->
-	 		</div>
-	 		<!--
-	 		<div class="barra_titulo_livros_filmes">
-				<h3>Livros e filmes</h3>
-			</div>
 	 		
+	 		<div class="barra_titulo_trabalhadores">
+				<h3>Trabalhadores do LEFA</h3>
+			</div>
 		 	<div class="barra_conteudo_livros_filmes">
 		 		<div class="conteiner_importancia_leitura">
 		 			<div class="bloco_de_texto">
@@ -210,7 +245,7 @@ pageEncoding="UTF-8"%>
 		 			</div>
 		 		</div>	
 	 		</div>
-	 		  -->
+	 		  
 		 		<!--<div class="conteiner_importancia_leitura">
 			 		<div class="bloco_de_texto">
 			 			<h3>A Importância da Leitura</h3>

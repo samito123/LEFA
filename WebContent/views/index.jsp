@@ -126,10 +126,11 @@ pageEncoding="UTF-8"%>
 						</div>
 						<div class="bloco_de_texto_bottom">
 							<p>
-								"Enfrentar preconceitos é o preço que se paga por ser diferente"
+								"Embora ninguém possa voltar atrás e fazer um novo começo, 
+								qualquer um pode começar agora e fazer um novo fim"
 							</p>
 							<p>
-								Luiz Gasparetto
+								Chico Xavier
 							</p>
 						</div>
 					</div>
@@ -166,17 +167,14 @@ pageEncoding="UTF-8"%>
 									<p>
 										Solidariedade, responsabilidade	e compaixão são sentimentos essencialmente
 										 humanos e virtudes cívicas...
-									</p>	
+									</p>
+									
+									<div class="bloco_de_link">
+										<span>Click aqui e saiba mais sobre cada um dos nossos voluntários	</span>
+									</div>
 								</div>											
 							</div>
-						</div>
-						<div class="link_voluntarios">
-							<a href="#">
-								<h3>
-									Click aqui e saiba mais sobre cada um dos nossos voluntários
-								</h3>
-							</a>
-						</div>							
+						</div>					
 					</div>
 				</div>
 	 		</div>
@@ -188,10 +186,10 @@ pageEncoding="UTF-8"%>
 					</div>
 				</div>-->
 	 		
-	 		<div class="barra_titulo_trabalhadores">
-				<h3>Trabalhadores do LEFA</h3>
+	 		<div class="barra_titulo_livros">
+				<h3>Incentivo a leitura</h3>
 			</div>
-		 	<div class="barra_conteudo_livros_filmes">
+		 	<div class="barra_conteudo_livros">
 		 		<div class="conteiner_importancia_leitura">
 		 			<div class="bloco_de_texto">
 		 				<h3>A Importância da Leitura</h3>
@@ -216,9 +214,14 @@ pageEncoding="UTF-8"%>
 						    </div>  			     
 						</div>  
 		 			</div>
-		 		</div>
-		 				
-			 	<div class="conteiner_importancia_filmes">
+		 		</div> 	
+	 		</div>
+	 		
+	 		<div class="barra_titulo_filmes">
+				<h3>Incentivo a filmes</h3>
+			</div>
+		 	<div class="barra_conteudo_filmes">
+		 		<div class="conteiner_importancia_filmes">
 		 			<div class="bloco_de_imagem">
 		 				<div class="view view-first">  	   	
 						    <img src="imagens/sessao/filme.png" />  
@@ -243,9 +246,59 @@ pageEncoding="UTF-8"%>
 			 				longínquas, as quais nunca visitamos.
 			 			</p>
 		 			</div>
-		 		</div>	
-	 		</div>
-	 		  
+		 		</div>
+		 	</div>
+		 	
+		 	<div class="barra_titulo_lefa">
+				<h3>Sobre o LEFA</h3>
+			</div>
+			<div class="barra_conteudo_lefa">
+				<div class="conteiner">
+					<div class="bloco_de_texto_top">
+						<h3>Lar Espirita Francisco Alcyone</h3>
+						<p>
+							Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! 
+							Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! 
+							Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! 
+							Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! 
+						</p>
+						<p>
+							Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! 
+							Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! 
+							Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! 
+							Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! Blah! 
+						</p>
+					</div>
+					<div class="bloco_de_imagem">
+						<div class="view view-first">  	   	
+						    <img src="imagens/sessao/saiba_mais.png" />  
+						    <div class="mask">  
+							    <h2>LEFA</h2>  
+							    <p>Lar Espirita Francisco Alcyone</p>  
+						        <a href="#" class="info">Saiba Mais</a>  
+						    </div>  			     
+						</div>  
+					</div>
+					<div class="bloco_de_texto_bottom">
+						<p>
+							"Grandes realizações são possíveis quando se dá 
+							importância aos pequenos começos" 
+						</p>
+						<p>
+							Lao Tsé
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="barra_titulo_fale_conosco">
+				<h3>Fale conosco</h3>
+			</div>
+			<div class="barra_conteudo_fale_conosco">
+				<div class="conteiner">
+				</div>
+			</div>
+	 		
 		 		<!--<div class="conteiner_importancia_leitura">
 			 		<div class="bloco_de_texto">
 			 			<h3>A Importância da Leitura</h3>

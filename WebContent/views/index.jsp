@@ -277,7 +277,7 @@ pageEncoding="UTF-8"%>
 							    <p>Lar Espirita Francisco Alcyone</p>  
 						        <a href="#" class="info">Saiba Mais</a>  
 						    </div>  			     
-						</div>  
+						</div> 
 					</div>
 					<div class="bloco_de_texto_bottom">
 						<p>
@@ -289,15 +289,68 @@ pageEncoding="UTF-8"%>
 						</p>
 					</div>
 				</div>
-			</div>
+			</div> 
 			
 			<div class="barra_titulo_fale_conosco">
 				<h3>Fale conosco</h3>
 			</div>
 			<div class="barra_conteudo_fale_conosco">
 				<div class="conteiner">
+					<div class="bloco_de_texto">
+						<h3>Entrando em contato</h3>
+						<p>
+							Para se comunicar conosco basta preencher o formulário abaixo, 
+							retornaremos o contato assim que possível
+						</p>
+					</div>
+					<div class="bloco_de_formulario">
+						<ng-submit="lf.FaleConosco()" name="form">
+							
+							<input type="text" placeholder="Digite seu login..." ng-model="lf.nome" required maxlength="100">		
+							
+							<input type="email" placeholder="Digite seu email..." ng-model="lf.email" required maxlength="100">
+							
+							<textarea rows="8" placeholder="Sua mensagem aqui..." ng-model="lf.mensagem"></textarea>
+							
+							<button type="submit" class="btn btn-primary">Enviar mensagem</button>
+							
+						</form>
+					</div>
+					<div class="bloco_de_enderecos">
+						<h3>Nossos endereços</h3>
+						<div class="conteiner_de_icone">
+							<div class="bbb">
+								<div class="aaa">
+									<img src="imagens/icones/icon_house.png">
+								</div>
+							</div>
+							
+							<p>
+								blah! blah! blah! blah! 
+							</p>
+							<p>
+								Bairro: blah! blah! blah! blah! 	
+							</p>
+							<p>
+								Ceará - Fortaleza
+							</p>
+						</div>
+						<div class="conteiner_de_icone">
+							<div class="bbb">
+								<div class="aaa">
+									<img src="imagens/icones/icon_email.png">
+								</div>
+							</div>
+							
+							<br>
+							<p>
+								LEFA@hotmail.com
+							</p>
+							<br>
+						</div>
+					</div>
 				</div>
-			</div>
+			</div> 
 	 		
 		 		<!--<div class="conteiner_importancia_leitura">
 			 		<div class="bloco_de_texto">

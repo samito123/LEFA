@@ -312,16 +312,17 @@ pageEncoding="UTF-8"%>
 							
 							<textarea rows="8" placeholder="Sua mensagem aqui..." ng-model="lf.mensagem"></textarea>
 							
-							<button type="submit" class="btn btn-primary">Enviar mensagem</button>
+							<button type="submit">Enviar mensagem</button>
 							
 						</form>
 					</div>
 					<div class="bloco_de_enderecos">
 						<h3>Nossos endereços</h3>
 						<div class="conteiner_de_icone">
+							<hr>
 							<div class="bbb">
 								<div class="aaa">
-									<img src="imagens/icones/icon_house.png">
+									<img style="margin-top: 4px;" src="imagens/icones/icon_house.png">
 								</div>
 							</div>
 							
@@ -336,6 +337,7 @@ pageEncoding="UTF-8"%>
 							</p>
 						</div>
 						<div class="conteiner_de_icone">
+							<hr>
 							<div class="bbb">
 								<div class="aaa">
 									<img src="imagens/icones/icon_email.png">

@@ -16,10 +16,15 @@ pageEncoding="UTF-8"%>
 	<body ng-controller="LEFA as lf">
 		
 		<div class="container">
+		
+			 <%@include  file="../importacoes/menu_de_opcoes_modulos.jsp" %>
+		
 			 <div class="conteiner_menu">
 				<div class="menu">	
 					<div class="botao_menu">
-						<a href="#" title="Menu">&#9776</a>
+						<button class="menu-btn botao_de_menu" title="Menu">
+							&#9776
+							</button>
 					</div>		
 					<div class="logo_lefa">
 						<a href="#">{{lf.nome_instituicao}}</a>
@@ -306,7 +311,7 @@ pageEncoding="UTF-8"%>
 					<div class="bloco_de_formulario">
 						<ng-submit="lf.FaleConosco()" name="form">
 							
-							<input type="text" placeholder="Digite seu login..." ng-model="lf.nome" required maxlength="100">		
+							<input type="text" placeholder="Digite seu nome..." ng-model="lf.nome" required maxlength="100">		
 							
 							<input type="email" placeholder="Digite seu email..." ng-model="lf.email" required maxlength="100">
 							
@@ -320,9 +325,9 @@ pageEncoding="UTF-8"%>
 						<h3>Nossos endereços</h3>
 						<div class="conteiner_de_icone">
 							<hr>
-							<div class="bbb">
-								<div class="aaa">
-									<img style="margin-top: 4px;" src="imagens/icones/icon_house.png">
+							<div class="barra_de_icone">
+								<div class="conteiner_arredondado">
+									<img style="width: 20px; margin-top: 4px;" src="imagens/icones/icon_house.png">
 								</div>
 							</div>
 							
@@ -338,18 +343,46 @@ pageEncoding="UTF-8"%>
 						</div>
 						<div class="conteiner_de_icone">
 							<hr>
-							<div class="bbb">
-								<div class="aaa">
-									<img src="imagens/icones/icon_email.png">
+							<div class="barra_de_icone">
+								<div class="conteiner_arredondado">
+									<img style="width: 20px; margin-top: 6px;" src="imagens/icones/icon_social.png">
 								</div>
 							</div>
-							
-							<br>
+							<p>
+								linkedin.com/untitled
+							</p>
+							<p>
+								facebook.com/untitled
+							</p>
+							<p>
+								twitter.com/untitled
+							</p>
+					 	</div>
+						<div class="conteiner_de_icone">
+							<hr>
+							<div class="barra_de_icone">
+								<div class="conteiner_arredondado">
+									<img style="width: 20px; margin-top: 8px;" src="imagens/icones/icon_email.png">
+								</div>
+							</div>
 							<p>
 								LEFA@hotmail.com
 							</p>
-							<br>
-						</div>
+					 	</div>
+						<div class="conteiner_de_icone">
+							<hr>
+							<div class="barra_de_icone">
+								<div class="conteiner_arredondado">
+									<img style="width: 18px; margin-top: 6px;" src="imagens/icones/icon_tel.png">
+								</div>
+							</div>
+							<p>
+								(85)3333-3333
+							</p>
+							<p>
+								(85)99999-9999
+							</p>
+					 	</div>
 					</div>
 				</div>
 			</div> 
@@ -499,6 +532,8 @@ pageEncoding="UTF-8"%>
 		
 	</body>
 </html>
+
+<script type="text/javascript" src="javascript/menu/pushy.min.js" charset="UTF-8"></script>
 
 <!-- ANGULAR JS -->
 	<script type="text/javascript">

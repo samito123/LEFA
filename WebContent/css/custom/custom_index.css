@@ -45,24 +45,24 @@ html,body{
 		font-size: 1.4em;
 	}
 	
-	.conteiner_menu .menu .botao_menu a,
-	.conteiner_menu .menu .botao_menu a:visited {
+	.conteiner_menu .menu .botao_menu button {
 		background: transparent;
 		color: #dcd2be;
 		text-align: center;
 		border: solid 1px #dcd2be;
 		border-radius: 5px;
-		padding: 0.2em 0.4em 0.2em 0.4em;
+		padding: 0.3em 0.8em 0.5em 0.8em;
 		text-decoration: none;
+		cursor: pointer;
 	}
-	.conteiner_menu .menu .botao_menu a:hover {
+	/*.conteiner_menu .menu .botao_menu button:hover {
 		background: transparent;
 		border: solid 1px #969286;
 		padding: 0.25em 0.4em 0.15em 0.4em;
 	}
-	.conteiner_menu .menu .botao_menu a:focus {
+	.conteiner_menu .menu .botao_menu button:focus {
 		background: transparent;
-	}
+	}*/
 	
 	.conteiner_menu .menu .logo_lefa{
 		margin: 0.7em 0 0 0;
@@ -1089,7 +1089,8 @@ html,body{
 		@media all and (max-width: 1000px) { 
 			.barra_conteudo_fale_conosco .conteiner .bloco_de_formulario{
 				width: 90%;
-				margin: 0 5% 2em 5%;
+				margin: 0 5% 3em 5%;
+				font-size: 0.8em;
 			}
 		}
 	
@@ -1146,7 +1147,8 @@ html,body{
 				-o-transition: 0.1s ease-in;
 				transition: 0.1s ease-in;
 			}
-		
+			
+			
 		.barra_conteudo_fale_conosco .conteiner .bloco_de_enderecos{	
 			width: 40%;
 			float: left;
@@ -1167,31 +1169,32 @@ html,body{
 				margin: 0 0 1em 0;
 			}
 			
+			@media all and (max-width: 560px) { 
+					.barra_conteudo_fale_conosco .conteiner .bloco_de_enderecos h3{
+						font-size: 0.8em;
+					}
+				}
+			
 			.barra_conteudo_fale_conosco .conteiner .bloco_de_enderecos .conteiner_de_icone{
 				width: 100%;
 				float: left;
-				margin: 1em 0 1em 0;
+				margin: 0.5em 0 1em 0;
 			}
 				
 				.barra_conteudo_fale_conosco .conteiner .bloco_de_enderecos .conteiner_de_icone hr{
 					width: 70%;
 					margin: 0 15% 0 15%;
-					border: 1px solid blue;
+					border: 1px solid #dcd2be;
 				}
 			
-				.barra_conteudo_fale_conosco .conteiner .bloco_de_enderecos .conteiner_de_icone .bbb{
+				.barra_conteudo_fale_conosco .conteiner .bloco_de_enderecos .conteiner_de_icone .barra_de_icone{
 					width: 100%;
 					float: left;
-					padding: 0 0 1em 0;
-				}
+					padding: 0 0 0.5em 0;
+				}				
 				
-				@media all and (max-width: 560px) { 
-					.barra_conteudo_fale_conosco .conteiner .bloco_de_enderecos .conteiner_de_icone .bbb{
-						margin: 0 0 0 0;
-					}
-				}
-				
-				.barra_conteudo_fale_conosco .conteiner .bloco_de_enderecos .conteiner_de_icone .bbb .aaa{
+				.barra_conteudo_fale_conosco .conteiner .bloco_de_enderecos .conteiner_de_icone 
+				.barra_de_icone .conteiner_arredondado{
 					width: 30px;
 				    height: 30px;
 				    float: left;
@@ -1207,17 +1210,13 @@ html,body{
 					-webkit-box-shadow: 2px 2px 2px 1px #0d0d0d;
 				}
 				
-					.barra_conteudo_fale_conosco .conteiner .bloco_de_enderecos .conteiner_de_icone .bbb .aaa img{	
-						width: 20px;
-					}
-				
 				.barra_conteudo_fale_conosco .conteiner .bloco_de_enderecos .conteiner_de_icone p{
 					text-align: center;
 				}
 				
 				@media all and (max-width: 560px) { 
 					.barra_conteudo_fale_conosco .conteiner .bloco_de_enderecos .conteiner_de_icone p{
-						font-size: 0.8em;
+						font-size: 0.7em;
 					}
 				}
 				

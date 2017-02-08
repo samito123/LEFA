@@ -27,6 +27,11 @@
 		<script type="text/javascript" src="javascript/modernizr/modernizr.custom.js" charset="UTF-8"></script>
 <!-- Fim Modernize -->
 
+<!-- Menu -->
+	<!-- CSS Custom-->
+		<link href="css/menu/pushy.css" rel="stylesheet" type="text/css" charset="UTF-8">
+<!-- Fim Menu -->
+
 <!-- Fotorama-->
 	<!-- CSS Custom-->
 		<link href="css/fotorama/fotorama.css" rel="stylesheet" type="text/css" charset="UTF-8">
@@ -46,8 +51,10 @@
 		<script src="javascript/calendario/calendar.min.js"></script>
 <!-- Fim Twenty -->
 
-
-<script src="javascript/parallax/parallax.min.js"></script>
+<!-- Parallax -->
+	<!-- JS -->
+		<script src="javascript/parallax/parallax.min.js"></script>
+<!-- Fim Parallax -->
 
 
 

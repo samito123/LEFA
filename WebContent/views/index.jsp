@@ -9,7 +9,7 @@ pageEncoding="UTF-8"%>
 		<meta name="viewport" content="width=device-width">
 		
 		<title>Lar Espirita Francisco Alcyone</title>
-		<%@include  file="../importacoes/inportacoes_index.jsp" %>
+		<%@include  file="../importacoes/importacoes_index.jsp" %>
 		
 	</head>
 	<head>
@@ -31,15 +31,7 @@ pageEncoding="UTF-8"%>
 					</div>
 					<div class="descricao_logo_lefa">
 						<a href="#">{{lf.descricao_instituicao}}</a>
-					</div>
-					<!-- <div class="menu_direito">
-						<div class="link_menu"><a href="#">Home</a></div>	
-						<div class="link_menu"><a href="#">Agenda</a></div>		
-						<div class="link_menu"><a href="#">Ações</a></div>
-						<div class="link_menu"><a href="#">Voluntários</a></div>
-						<div class="link_menu"><a href="#">Patrocinadores</a></div>	
-						<div class="link_menu_final"><a href="#">Contato</a></div>		
-					</div>	 -->	
+					</div>	
 				</div>
 			</div>
 			
@@ -70,7 +62,7 @@ pageEncoding="UTF-8"%>
 							    <div class="mask">  
 								    <h2>Agenda</h2>  
 								    <p>Programação LEFA</p>  
-							        <a href="#" class="info">Saiba Mais</a>  
+							        <a href="Agenda" class="info">Saiba Mais</a>  
 							    </div>  			     
 							</div>  
 						</div>	
@@ -89,7 +81,7 @@ pageEncoding="UTF-8"%>
 							    <div class="mask">  
 								    <h2>Eventos</h2>  
 								    <p>Como foram os eventos do LEFA</p>  
-							        <a href="#" class="info">Saiba Mais</a>  
+							        <a href="Eventos" class="info">Saiba Mais</a>  
 							    </div>  			     
 							</div>  
 						</div>

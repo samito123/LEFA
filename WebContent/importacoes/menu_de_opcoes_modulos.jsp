@@ -1,7 +1,15 @@
 <nav class="pushy pushy-left">
     <ul>
         <li class="pushy-link">	
-        	<a href="agenda">
+        	<a href="Home">
+        		<img src="imagens/icones/icon_house.png" /> 
+	  			Home
+			</a>
+		</li>
+    </ul>
+    <ul>
+        <li class="pushy-link">	
+        	<a href="Agenda">
         		<img src="imagens/icones/icon_agenda.png" /> 
 	  			Agenda
 			</a>
@@ -9,7 +17,7 @@
     </ul>
     <ul>
         <li class="pushy-link">	
-        	<a href="eventos">
+        	<a href="Eventos">
         		<img src="imagens/icones/icon_eventos.png" /> 
 	  			Eventos
 			</a>

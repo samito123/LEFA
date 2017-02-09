@@ -6,6 +6,33 @@
 		<welcome-file>/views/index.jsp</welcome-file>
 	</welcome-file-list>
 	
+	<servlet>
+        <servlet-name>Home</servlet-name>
+        <jsp-file>/views/index.jsp</jsp-file>
+        </servlet>
+    <servlet-mapping>
+        <servlet-name>Home</servlet-name>
+        <url-pattern>/Home</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Agenda</servlet-name>
+        <jsp-file>/views/agenda.jsp</jsp-file>
+        </servlet>
+    <servlet-mapping>
+        <servlet-name>Agenda</servlet-name>
+        <url-pattern>/Agenda</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Eventos</servlet-name>
+        <jsp-file>/views/eventos.jsp</jsp-file>
+        </servlet>
+    <servlet-mapping>
+        <servlet-name>Eventos</servlet-name>
+        <url-pattern>/Eventos</url-pattern>
+    </servlet-mapping>
+	
 	<error-page> 
 		<exception-type>java.lang.Exception</exception-type> 
 		<location>/views/index.jsp</location> 

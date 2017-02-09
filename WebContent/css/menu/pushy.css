@@ -30,7 +30,7 @@
 .pushy a img{
   width: 18px;
   position: relative;
-  top: 2px;
+  top: 3px;
   opacity:0.5;
   -webkit-transition: 0.5s ease-in;
   -moz-transition: 0.5s ease-in;

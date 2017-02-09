@@ -1,13 +1,13 @@
 *{margin:0;padding:0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box}
 
 .calendar,.calendar * {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
-.calendar {padding: 0em;color: white;font-weight: 300;}
+.calendar {padding: 0em;color: #dce5e0;font-weight: 300; font-family: Courier New, monospace;}
 .calendar.small {font-size: 0.8em;font-weight: 100;}
 
 .calendar-month-view {display: block;font-size: 2em;line-height:2em;-webkit-transition: all 0.5s; -moz-transition: all 0.5s;-o-transition: all 0.5s;transition:0.5s all;position:relative;text-align:center;}
 .calendar-month-view, .calendar-month-view * {-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;-o-user-select: none;user-select: none;}
 .calendar-month-view-arrow {width: 15%;	position: absolute;	top: 0;	color: transparent;	cursor: pointer;}
-.calendar-month-view-arrow:hover {background: rgba(255, 255, 255, 0.25);}
+.calendar-month-view-arrow:hover {background: rgba(220, 210, 190, 0.25);}
 .calendar.spec-day .calendar-month-view-arrow {	display: none;}
 
 [data-dir=left] {left:0;}
@@ -17,7 +17,7 @@
 .letrasDay {display: block;height:30px;line-height:30px;text-align:center;}
 	.letrasDay div {width: 14.28%;margin: 0 !important;padding:0 !important;position: relative;display: block;float:left;color: white;border:solid #fff;border-width:1px 0 0 1px;overflow:hidden}
 
-.calendar:hover .calendar-month-view {background: rgb(35,35,35) !important;}
+.calendar:hover .calendar-month-view {background: rgba(45, 45, 45, 0.8) !important;}
 .calendar:hover .calendar-month-view-arrow {color: white;}
 .calendar-holder {width:100%;height: 300px;position: relative;overflow: hidden;}
 .calendar-grid {width:100%;height: 100%;position: absolute;top: 0;}
@@ -30,7 +30,7 @@
 .calendar-day:nth-child(7n+1),.letrasDay div:nth-child(7n+1) {border-left: 0;}
 .calendar-day.other-month {color: rgb(55, 55, 55);}
 .calendar .calendar-grid .calendar-day.this-day {background: none;}
-.calendar .calendar-grid .calendar-day.have-events:hover {background: rgb(34, 34, 34);}
+.calendar .calendar-grid .calendar-day.have-events:hover {background: rgba(45, 45, 45, 0.8);-webkit-transition: all 0.5s;-moz-transition: all 0.5s;-o-transition: all 0.5s;transition:0.5s all;}
 .calendar .calendar-grid .other-month.have-events:hover {color: white;}
 
 .calendar-day .date-holder {font-size: 1.3em;position: absolute;right:5%;bottom:5%;}
@@ -77,7 +77,11 @@
 	cursor: pointer;
 }
 .calendar-specific .specific-day:hover {
-	background: rgb(34, 34, 34);
+	background: rgba(45, 45, 45, 0.8);
+	-webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition:0.5s all;
 }
 
 .specific-day-info[i=day] {
@@ -133,8 +137,8 @@
 	line-height: 1;
 }
 [data-color=normal] {
-	background-color: #6AB0AC;
+	background-color: #a9c1dc;
 }
 [data-color=normal] select,[data-color=normal] .calendar-month-view, [data-role=sub] nav a[data-color=normal], [data-color=normal] .checkbox-outer, [data-color=normal] .radio-outer,[data-color=normal] textarea,input:not([type=file])[data-color=normal], [data-color=normal] input:not([type=file]),[data-color=normal] .calendar-day,[data-color=normal] button, button[data-color=normal],[data-color=normal] a[data-role=button], a[data-role=button][data-color=normal],[data-color=normal] input[type=submit],[data-color=normal].accordion li, [data-color=normal].list li, [data-color=normal].olist li, [data-color=normal] .specific-day,[data-color=normal] .chart-bar,[data-color=normal] .calendar-specific .specific-day-scheme-event {
-	background-color: #459C97;
+	background-color: #798ba0;
 }

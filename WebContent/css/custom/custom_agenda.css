@@ -1,0 +1,136 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+}
+
+html{
+	background-color: #2d2d2d;
+	cursor: default;
+}
+
+html,body{
+	font-family: Arial, 
+	Helvetica, sans-serif;
+}
+
+.container { 
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+}
+
+.conteiner_menu{
+	width: 100%;
+	float: left;
+	/*padding-bottom: 5em;
+	background-color: #2d2d2d;*/
+}
+
+	.conteiner_menu .menu{
+		width: 76%;
+		height: auto;
+		margin: 0 12% 0 12%;
+	}
+	
+	@media all and (max-width: 700px) { 
+		.conteiner_menu .menu{
+			width: 90%;
+			margin: 0 5% 0 5%;
+		}
+	}
+	
+	.conteiner_menu .menu .botao_menu {
+		width: 1em;
+		float: left;
+		margin: 1.3em 1.2em 0 0;
+		font-size: 1.4em;
+	}
+	
+	.conteiner_menu .menu .botao_menu button {
+		background: transparent;
+		color: #dcd2be;
+		text-align: center;
+		border: solid 1px #dcd2be;
+		border-radius: 5px;
+		padding: 0.3em 0.8em 0.5em 0.8em;
+		text-decoration: none;
+		cursor: pointer;
+		outline:none
+	}
+	
+	.conteiner_menu .menu .logo_lefa{
+		margin: 0.7em 0 0 0;
+		float: left;
+		font: italic small-caps bold 14px "Comic Sans MS", sans-serif;
+		font-size: 2em;
+		color: #dcd2be;
+	}
+	
+	.conteiner_menu .menu .descricao_logo_lefa{
+		margin: 2.5em 0 0 0;
+		font: italic small-caps bold 14px "Comic Sans MS", sans-serif;
+		font-size: 1em;
+		color: #dcd2be;
+		float: right;
+	}
+	
+	@media all and (max-width: 700px) { 
+		.conteiner_menu .menu .descricao_logo_lefa{
+			width: 17.5em;
+			height: 1.5em;
+			position:absolute;
+			top: 4.5em;
+			left: 5%;
+			margin-top: -1em;
+			margin-left: -8.75em;
+			float: none;
+			margin: 0;
+		}
+	}
+	
+	@media all and (max-width: 340px) { 
+		.conteiner_menu .menu .descricao_logo_lefa{
+			top: 5.5em;
+			font-size: 0.8em;
+		}
+	}
+	
+	.conteiner_menu .menu a:link, 
+	.conteiner_menu .menu a:visited {
+		text-decoration: none;
+		color: #dcd2be;
+	} 
+	
+	.conteiner_menu .menu a:hover {
+		text-decoration: none; 
+		color: #969286;
+	}
+	
+	.conteiner_menu .menu a:active {
+		text-decoration: none;
+	}
+
+.conteiner_agenda{
+	width: 100%;
+	float: left;
+}
+
+	.conteiner_agenda .agenda{
+		width: 76%;
+		margin: 1em 12% 2em 12%;
+	}
+	
+	@media all and (max-width: 700px) { 
+		.conteiner_agenda .agenda{
+			width: 90%;
+			margin: 3em 5% 2em 5%;
+		}
+	}
+	
+	@media all and (max-width: 340px) { 
+		.conteiner_agenda .agenda{
+			width: 90%;
+			margin: 2em 5% 2em 5%;
+		}
+	}
+	

@@ -32,7 +32,14 @@
 		<link href="css/menu/pushy.css" rel="stylesheet" type="text/css" charset="UTF-8">
 <!-- Fim Menu -->
 
-<!-- Menu -->
+<!-- Grid -->
 	<!-- CSS Custom-->
 		<link href="css/grid_gallery/boardz.css" rel="stylesheet" type="text/css" charset="UTF-8">
-<!-- Fim Menu -->
+<!-- Fim Grid -->
+
+<!-- Teste -->
+	<!-- CSS Custom-->
+		<link href="css/teste/component.css" rel="stylesheet" type="text/css" charset="UTF-8">
+	<!-- JS -->
+		<script type="text/javascript" src="css/teste/grid3d.modernizr.custom.js" charset="UTF-8"></script>
+<!-- Fim Teste -->

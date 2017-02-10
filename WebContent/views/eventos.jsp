@@ -10,13 +10,14 @@ pageEncoding="UTF-8"%>
 		
 		<title>Lar Espirita Francisco Alcyone</title>
 		<%@include  file="../importacoes/importacoes_eventos.jsp" %>
-		
+
 	</head>
 	<head>
 	<body ng-controller="LEFA as lf">
 		
 		<div class="container">
 		
+		 	 <%@include  file="../importacoes/loading.jsp" %>
 			 <%@include  file="../importacoes/menu_de_opcoes_modulos.jsp" %>
 		
 			 <div class="conteiner_menu">
@@ -35,58 +36,169 @@ pageEncoding="UTF-8"%>
 				</div>
 			</div>
 			
-			<div class="conteiner_eventos">
+			<div id="aaa" class="conteiner_eventos">
 				<div class="boardz">
 					<ul>
 						<li>
-							<h1> Evento 1</h1>
-							Blah! Blah! Blah! Blah! Blah! Blah! 
-							Blah! Blah! Blah! Blah! Blah! Blah! 
-							Blah! Blah! Blah! Blah! Blah! Blah! 
+							<div class="hoverzoom 1">
+								<img src="http://kingofwallpapers.com/poster/poster-003.jpg">
+								<div class="retina">
+									<h1>Evento x</h1>
+									<p>
+										Blah! Blah! Blah! Blah! Blah! Blah! 
+										Blah! Blah! Blah! Blah! Blah! Blah!
+									</p>
+									<a ng-click="lf.loading()">Click aqui para saber mais</a>
+								</div> 
+							</div>
 						</li>
 						<li>
-							<h1> Evento 8</h1>
-	          				<img src="imagens/banner/teste.png" alt="demo image"/>
+							<div class="hoverzoom">
+								<img src="http://kingofwallpapers.com/poster/poster-001.jpg">
+								<div class="retina">
+									<h1>Evento x</h1>
+									<p>
+										Blah! Blah! Blah! Blah! Blah! Blah! 
+										Blah! Blah! Blah! Blah! Blah! Blah!
+									</p>
+									<a href="#">Click aqui para saber mais</a>
+								</div> 
+							</div>
 	   					</li>
 						<li>
-							<h1> Evento 2</h1>
-							Blah! Blah! Blah! Blah! 			
+							<div class="hoverzoom">
+								<img src="http://kingofwallpapers.com/poster/poster-002.jpg">
+								<div class="retina">
+									<h1>Evento x</h1>
+									<p>
+										Blah! Blah! Blah! Blah! Blah! Blah! 
+										Blah! Blah! Blah! Blah! Blah! Blah!
+									</p>
+									<a href="#">Click aqui para saber mais</a>
+								</div> 
+							</div>			
 						</li>			
 					</ul>
 					
 					<ul>
 						<li>
-							<h1> Evento 3</h1>
-							Blah! Blah! Blah! Blah! Blah! Blah! 
-							Blah! Blah! Blah! 
+							<div class="hoverzoom">
+								<img src="http://kingofwallpapers.com/poster/poster-004.jpg">
+								<div class="retina">
+									<h1>Evento x</h1>
+									<p>
+										Blah! Blah! Blah! Blah! Blah! Blah! 
+										Blah! Blah! Blah! Blah! Blah! Blah!
+									</p>
+									<a href="#">Click aqui para saber mais</a>
+								</div> 
+							</div>
 						</li>
 						<li>
-							<h1> Evento 4</h1>
-							Blah! Blah! Blah! 			
+							<div class="hoverzoom">
+								<img src="http://kingofwallpapers.com/poster/poster-005.jpg">
+								<div class="retina">
+									<h1>Evento x</h1>
+									<p>
+										Blah! Blah! Blah! Blah! Blah! Blah! 
+										Blah! Blah! Blah! Blah! Blah! Blah!
+									</p>
+									<a href="#">Click aqui para saber mais</a>
+								</div> 
+							</div>		
 						</li>
 						<li>
-	          				<img src="http://kingofwallpapers.com/poster/poster-003.jpg" alt="demo image"/>
+	          				<div class="hoverzoom">
+								<img src="http://kingofwallpapers.com/poster/poster-006.jpg">
+								<div class="retina">
+									<h1>Evento x</h1>
+									<p>
+										Blah! Blah! Blah! Blah! Blah! Blah! 
+										Blah! Blah! Blah! Blah! Blah! Blah!
+									</p>
+									<a href="#">Click aqui para saber mais</a>
+								</div> 
+							</div>
 	   					</li>
 									
 					</ul>	
 					
 					<ul>
 						<li>
-							<h1> Evento 5</h1>
-							Blah! Blah! Blah! Blah! Blah! Blah! 
-							Blah! Blah! Blah! Blah! Blah! Blah! 
+							<div class="hoverzoom">
+								<img src="http://kingofwallpapers.com/poster/poster-007.jpg">
+								<div class="retina">
+									<h1>Evento x</h1>
+									<p>
+										Blah! Blah! Blah! Blah! Blah! Blah! 
+										Blah! Blah! Blah! Blah! Blah! Blah!
+									</p>
+									<a href="#">Click aqui para saber mais</a>
+								</div> 
+							</div>
 						</li>
 						<li>
-	          				<img src="https://s-media-cache-ak0.pinimg.com/736x/22/95/48/229548086245c332443109ca9f2e0890.jpg" alt="demo image"/>
+	          				<div class="hoverzoom">
+								<img src="http://kingofwallpapers.com/poster/poster-008.jpg">
+								<div class="retina">
+									<h1>Evento x</h1>
+									<p>
+										Blah! Blah! Blah! Blah! Blah! Blah! 
+										Blah! Blah! Blah! Blah! Blah! Blah!
+									</p>
+									<a href="#">Click aqui para saber mais</a>
+								</div> 
+							</div>
 	   					</li>
 						<li>
-							<h1> Evento 6</h1>
-							Blah! Blah! Blah! Blah! Blah! Blah! 
-							Blah! Blah! Blah! Blah! 			
+							<div class="hoverzoom">
+								<img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR-C-xPbxe4yabConjD9BxtczLwnWNpWmopEht5OaTN83TA08NteA">
+								<div class="retina">
+									<h1>Evento x</h1>
+									<p>
+										Blah! Blah! Blah! Blah! Blah! Blah! 
+										Blah! Blah! Blah! Blah! Blah! Blah!
+									</p>
+									<a ng-click="lf.loading()">Click aqui para saber mais</a>
+								</div> 
+							</div>		
 						</li>			
 					</ul>				
 				</div>
 		 	</div>
+		 	
+		 	<!--<div class="container">
+				
+				<section class="grid3d vertical" id="grid3d">
+					<div class="grid-wrap">
+						<div class="grid">
+							<figure><img src="http://kingofwallpapers.com/poster/poster-001.jpg" alt="img01"/></figure>
+							<figure><img src="http://kingofwallpapers.com/poster/poster-002.jpg" alt="img01"/></figure>
+						</div>
+					</div>
+					<div class="content">
+						<div>	
+							<img src="http://kingofwallpapers.com/poster/poster-008.jpg"/>
+							<p >The  exploding like spiders across the stars.</p>
+							<p >The only.</p>
+						</div>
+						<div>	
+							<img src="http://kingofwallpapers.com/poster/poster-007.jpg"/>
+							<p >2</p>
+							<p >2222</p>
+						</div>
+						<span class="loading"></span>
+						<span class="icon close-content"></span>
+					</div>
+				</section>
+			</div>
+		 	<script src="css/teste/classie.js"></script>
+			<script src="css/teste/helper.js"></script>
+			<script src="css/teste/grid3d.js"></script>
+			<script>
+				new grid3D( document.getElementById( 'grid3d' ) );
+			</script>-->
+		 	
 		 	
 		</div>
 		
@@ -101,10 +213,43 @@ pageEncoding="UTF-8"%>
 		app.controller('LEFA', ['$http',function($http){
 			
 			var acess = this;		
-			acess.nome_instituicao = "LEFA";
+			acess.nome_instituicao = "Eventos";
 			acess.descricao_instituicao = "Lar Espirita Francisco Alcyone";
 			
 			
+			$("#loading").hide();
+			
+			acess.loading = function(){
+				var address= $(this).attr("src");
+				//$("html,body").css({"overflow":"hidden"});
+				//$("#popup").css({"overflow":"auto"});
+				$("#popup").fadeIn("slow");
+				//$('.1').addClass('lepolepo');
+				//$("#popup").slideDown();
+				
+				//$("#lightbox").attr("src",address);
+				//$("#aaa").css({"overflow":"hidden"});
+				
+				$(".1").animate({
+				    //opacity: 0.25,
+				    //left: "+=50",
+				    //height: "toggle"
+					//height: "200px"
+					
+					
+					height: "puff",
+					opacity: 0.25
+				  }, 3000, "linear",function() {
+				    // Animation complete.
+					  $( this ).after( "<div>Animation complete.</div>" );
+				  });
+			};
+			acess.close = function(){
+				$("#popup").css({"overflow":"hidden"});
+				$("html,body").css({"overflow":"auto"});
+				//$("#popup").fadeOut("slow");
+				$("#popup").slideUp();
+			};
 		}]);
 	</script>
 <!-- ANGULAR JS -->

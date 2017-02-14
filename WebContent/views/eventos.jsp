@@ -17,7 +17,7 @@ pageEncoding="UTF-8"%>
 		
 		<div class="container">
 		
-		 	 <%@include  file="../importacoes/loading.jsp" %>
+		 	 <%@include  file="../importacoes/descricao_evento.jsp" %>
 			 <%@include  file="../importacoes/menu_de_opcoes_modulos.jsp" %>
 		
 			 <div class="conteiner_menu">
@@ -36,18 +36,24 @@ pageEncoding="UTF-8"%>
 				</div>
 			</div>
 			
-			<div id="aaa" class="conteiner_eventos">
+			<div class="conteiner_eventos">
 				<div class="boardz">
 					<ul>
 						<li>
 							<div class="hoverzoom 1">
 								<img src="http://kingofwallpapers.com/poster/poster-003.jpg">
 								<div class="retina">
-									<h1>Evento x</h1>
+									<h3>Evento x</h3>
 									<p>
 										Blah! Blah! Blah! Blah! Blah! Blah! 
 										Blah! Blah! Blah! Blah! Blah! Blah!
 									</p>
+									<p>
+										Data:xx/xx/xxxx
+									</p>
+									<p>
+										Hora:xx:xx
+									</p>	
 									<a ng-click="lf.loading()">Click aqui para saber mais</a>
 								</div> 
 							</div>
@@ -56,7 +62,7 @@ pageEncoding="UTF-8"%>
 							<div class="hoverzoom">
 								<img src="http://kingofwallpapers.com/poster/poster-001.jpg">
 								<div class="retina">
-									<h1>Evento x</h1>
+									<h3>Evento x</h3>
 									<p>
 										Blah! Blah! Blah! Blah! Blah! Blah! 
 										Blah! Blah! Blah! Blah! Blah! Blah!
@@ -69,7 +75,7 @@ pageEncoding="UTF-8"%>
 							<div class="hoverzoom">
 								<img src="http://kingofwallpapers.com/poster/poster-002.jpg">
 								<div class="retina">
-									<h1>Evento x</h1>
+									<h3>Evento x</h3>
 									<p>
 										Blah! Blah! Blah! Blah! Blah! Blah! 
 										Blah! Blah! Blah! Blah! Blah! Blah!
@@ -77,7 +83,7 @@ pageEncoding="UTF-8"%>
 									<a href="#">Click aqui para saber mais</a>
 								</div> 
 							</div>			
-						</li>			
+						</li>		
 					</ul>
 					
 					<ul>
@@ -85,7 +91,7 @@ pageEncoding="UTF-8"%>
 							<div class="hoverzoom">
 								<img src="http://kingofwallpapers.com/poster/poster-004.jpg">
 								<div class="retina">
-									<h1>Evento x</h1>
+									<h3>Evento x</h3>
 									<p>
 										Blah! Blah! Blah! Blah! Blah! Blah! 
 										Blah! Blah! Blah! Blah! Blah! Blah!
@@ -98,7 +104,7 @@ pageEncoding="UTF-8"%>
 							<div class="hoverzoom">
 								<img src="http://kingofwallpapers.com/poster/poster-005.jpg">
 								<div class="retina">
-									<h1>Evento x</h1>
+									<h3>Evento x</h3>
 									<p>
 										Blah! Blah! Blah! Blah! Blah! Blah! 
 										Blah! Blah! Blah! Blah! Blah! Blah!
@@ -111,7 +117,7 @@ pageEncoding="UTF-8"%>
 	          				<div class="hoverzoom">
 								<img src="http://kingofwallpapers.com/poster/poster-006.jpg">
 								<div class="retina">
-									<h1>Evento x</h1>
+									<h3>Evento x</h3>
 									<p>
 										Blah! Blah! Blah! Blah! Blah! Blah! 
 										Blah! Blah! Blah! Blah! Blah! Blah!
@@ -128,7 +134,7 @@ pageEncoding="UTF-8"%>
 							<div class="hoverzoom">
 								<img src="http://kingofwallpapers.com/poster/poster-007.jpg">
 								<div class="retina">
-									<h1>Evento x</h1>
+									<h3>Evento x</h3>
 									<p>
 										Blah! Blah! Blah! Blah! Blah! Blah! 
 										Blah! Blah! Blah! Blah! Blah! Blah!
@@ -141,7 +147,7 @@ pageEncoding="UTF-8"%>
 	          				<div class="hoverzoom">
 								<img src="http://kingofwallpapers.com/poster/poster-008.jpg">
 								<div class="retina">
-									<h1>Evento x</h1>
+									<h3>Evento x</h3>
 									<p>
 										Blah! Blah! Blah! Blah! Blah! Blah! 
 										Blah! Blah! Blah! Blah! Blah! Blah!
@@ -154,7 +160,7 @@ pageEncoding="UTF-8"%>
 							<div class="hoverzoom">
 								<img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR-C-xPbxe4yabConjD9BxtczLwnWNpWmopEht5OaTN83TA08NteA">
 								<div class="retina">
-									<h1>Evento x</h1>
+									<h3>Evento x</h3>
 									<p>
 										Blah! Blah! Blah! Blah! Blah! Blah! 
 										Blah! Blah! Blah! Blah! Blah! Blah!
@@ -215,40 +221,17 @@ pageEncoding="UTF-8"%>
 			var acess = this;		
 			acess.nome_instituicao = "Eventos";
 			acess.descricao_instituicao = "Lar Espirita Francisco Alcyone";
-			
-			
-			$("#loading").hide();
-			
+		
 			acess.loading = function(){
 				var address= $(this).attr("src");
-				//$("html,body").css({"overflow":"hidden"});
-				//$("#popup").css({"overflow":"auto"});
+				$("html,body").css({"overflow":"hidden"});
+				$("#popup").css({"overflow":"auto"});
 				$("#popup").fadeIn("slow");
-				//$('.1').addClass('lepolepo');
-				//$("#popup").slideDown();
-				
-				//$("#lightbox").attr("src",address);
-				//$("#aaa").css({"overflow":"hidden"});
-				
-				$(".1").animate({
-				    //opacity: 0.25,
-				    //left: "+=50",
-				    //height: "toggle"
-					//height: "200px"
-					
-					
-					height: "puff",
-					opacity: 0.25
-				  }, 3000, "linear",function() {
-				    // Animation complete.
-					  $( this ).after( "<div>Animation complete.</div>" );
-				  });
 			};
 			acess.close = function(){
 				$("#popup").css({"overflow":"hidden"});
 				$("html,body").css({"overflow":"auto"});
-				//$("#popup").fadeOut("slow");
-				$("#popup").slideUp();
+				$("#popup").fadeOut("slow");
 			};
 		}]);
 	</script>

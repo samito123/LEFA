@@ -114,9 +114,15 @@ html,body{
 	margin: 1em 12% 2em 12%;
 }
 
+@media all and (max-width: 700px) { 
+	.conteiner_eventos{
+		width: 90%;
+		margin: 3em 5% 2em 5%;
+	}
+}
 
-#popup{
-    background:#000000;
+.popup_eventos{
+    background:#0d0d0d;
     height:100%;
     width: 100%;
     position:fixed;
@@ -125,23 +131,51 @@ html,body{
     left: 0;
     display: none;
 }
-#center{
-    border: 10px solid #121212;
-    margin: 6% auto;
-    width: 750px;
-    height: 1000px;
-}
-#close{
-    float: right;
-    position: absolute;
-    top: 12%;
-}
 
-.lepolepo{
-
-	-webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
-	    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
-	     -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
-	      -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
-	         transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
-}
+	.popup_eventos .conteiner{
+	   width: 76%;
+	   margin: 3em 12% 0 12%;
+	   float: left;
+	}
+	
+	.popup_eventos .conteiner .fechar{
+		position: absolute;
+		z-index: 9999;
+	    top: 1em;
+	    right: 5%;
+	}
+		.popup_eventos .conteiner .fechar img{
+		    width: 1.5em;
+		    cursor: pointer;
+		}
+	
+	.popup_eventos .conteiner .conteiner_banner{
+		width: 100%;
+	}
+	
+	@media all and (max-width: 700px) { 
+		.popup_eventos .conteiner .conteiner_banner{
+			
+		}
+	}
+	
+	.popup_eventos .conteiner .bloco_de_texto{
+		width: 100%;
+		margin: 2em 0 0 0;
+		text-align: center;
+		font-family: Courier New, monospace;
+		color: white;
+	}
+	
+	.popup_eventos .conteiner .bloco_de_texto h3{
+		width: 100%;
+		margin: 2em 0 0 0;
+	}
+	
+	.popup_eventos .conteiner .bloco_de_texto p{
+		width: 100%;
+		margin: 1em 0 3em 0;
+	}
+	
+	
+	

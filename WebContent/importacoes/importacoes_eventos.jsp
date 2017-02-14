@@ -37,6 +37,13 @@
 		<link href="css/grid_gallery/boardz.css" rel="stylesheet" type="text/css" charset="UTF-8">
 <!-- Fim Grid -->
 
+<!-- Fotorama-->
+	<!-- CSS Custom-->
+		<link href="css/fotorama/fotorama.css" rel="stylesheet" type="text/css" charset="UTF-8">
+	<!-- JS -->
+		<script src="javascript/fotorama/fotorama.js"></script>
+<!-- Fim Fotorama-->
+
 <!-- Teste -->
 	<!-- CSS Custom-->
 		<link href="css/teste/component.css" rel="stylesheet" type="text/css" charset="UTF-8">

@@ -37,7 +37,7 @@ pageEncoding="UTF-8"%>
 			
 			<div class="conteiner_banner">
 				<div class="fotorama" data-width="100%" data-height="370" 
-				data-fit="cover" data-autoplay="3000" data-nav="false">
+				data-fit="cover" data-autoplay="3000" data-nav="false" data-allowfullscreen="native">
 					<img src="imagens/banner/01.png" data-caption="{{lf.mensagem1}}">
 					<img src="imagens/banner/02.png" data-caption="{{lf.mensagem2}}">
 					<img src="imagens/banner/03.png" data-caption="{{lf.mensagem3}}">

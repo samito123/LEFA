@@ -89,7 +89,7 @@ pageEncoding="UTF-8"%>
 		app.controller('LEFA', ['$http',function($http){
 			
 			var acess = this;		
-			acess.nome_instituicao = "LEFA";
+			acess.nome_instituicao = "Agenda";
 			acess.descricao_instituicao = "Lar Espirita Francisco Alcyone";
 			
 			

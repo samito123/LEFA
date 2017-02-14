@@ -77,14 +77,14 @@
 	padding: 10px 0 10px 0;
 	cursor: pointer;
 }
-.hoverzoom .retina h1 {
-    margin: 0.2em 0 1em 0;
+.hoverzoom .retina h3 {
+    margin: 0.2em 0 0 0;
     padding-bottom: 4px;
     border-bottom: 1px solid gray;
 }
 .hoverzoom .retina p {
 	width: 98%;
-	margin: 0 1% 0 1%;
+	margin: 0.8em 1% 0.8em 1%;
 }
 @media screen and (max-width: 800px) {
     .boardz {
